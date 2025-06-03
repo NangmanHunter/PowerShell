@@ -2,6 +2,12 @@
 - [Append](#append)
 - [ReadmeAppend](#readmeappend)
 ## Append
+📄Tree.md
+```  
+►🌳FileTree
+►🌴DirectoryTree
+►⚓AnchorFileTree
+```
 - ```ps1
   function Show-Tree {
       param (
