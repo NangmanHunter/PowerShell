@@ -1,7 +1,6 @@
 # TotalTree
-- 🌴DirectoryTree
-- 🌳FileTree
-- ⚓AnchorFileTree
+- [Append](#append)
+- [ReadmeAppend](#readmeappend)
 ## Append
 - ```ps1
   function Show-Tree {
@@ -139,6 +138,11 @@
   ```
 
 ## ReadmeAppend
+```  
+►🌳FileTree
+►🌴DirectoryTree
+►⚓AnchorFileTree
+```
 - ```ps1
   function Show-Tree {
       param (
