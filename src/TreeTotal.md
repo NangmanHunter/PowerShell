@@ -276,12 +276,12 @@
 
 ```
 FileMap
-▸🌳FileTree
-▸🌴DirectoryTree
+►🌳FileTree
+►🌴DirectoryTree
 
 AnchorFileMap
-▸📌AnchorFile
-▸⚓AnchorFileTree
+►📌AnchorFile
+►⚓AnchorFileTree
 ```  
 - ```ps1
   function Show-Tree {
