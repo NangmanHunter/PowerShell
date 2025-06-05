@@ -1,5 +1,6 @@
 # DirectoryCreate
-
+- [SingleDirectoryCreate](#singledirectorycreate)
+- [MultiDirectoryCreate](#multidirectorycreate)
 
 Alias
 - CreateDirectory
@@ -22,6 +23,13 @@ Alias
         📁02Folder
   ```
 
+```
+📁etc
+📁src
+```
+- ```ps1
+  mkdir etc, src
+  ```
 Ex.
 - ```ps1
   mkdir 01SQL기본, 
