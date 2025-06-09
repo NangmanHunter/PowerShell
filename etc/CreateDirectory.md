@@ -24,8 +24,9 @@ Alias
   ```
 
 ```
-📁etc
-📁src
+📌.
+ └📁etc
+ └📁src
 ```
 - ```ps1
   mkdir etc, src

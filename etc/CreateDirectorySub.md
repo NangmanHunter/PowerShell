@@ -1,8 +1,9 @@
 # SubDirectoryCreate
 ## SingleSubDirectoryCreate
 ```
-📁Glossary
- └📁01SynOnym
+📌.
+ └📁Glossary
+  └📁01SynOnym
 ```
 - ```ps1
   mkdir Glossary/01SynOnym
@@ -10,10 +11,11 @@
 
 ## MultiSubDirectoryCreate
 ```
-📁Glossary
- └📁01SynOnym
- └📁02AntOnym
- └📁03HypOnym
+📌.
+ └📁Glossary
+   └📁01SynOnym
+   └📁02AntOnym
+   └📁03HypOnym
 ```
 - ```ps1
   mkdir Glossary/01SynOnym,
