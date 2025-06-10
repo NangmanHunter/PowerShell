@@ -31,6 +31,9 @@ Alias
 - ```ps1
   mkdir etc, src
   ```
+- ```ps1
+  mkdir src, etc
+  ```
 Ex.
 - ```ps1
   mkdir 01SQL기본, 
