@@ -17,7 +17,7 @@
    └📁02AntOnym
    └📁03HypOnym
 ```
-PartialCommand
+
 - ```ps1
   mkdir Glossary
   ```
@@ -35,8 +35,6 @@ PartialCommand
   cd Glossary; 
   mkdir 01SynOnym, 02AntOnym, 03HypOnym
   ```
-
-TotalCommand
 - ```ps1
   mkdir Glossary/01SynOnym,
         Glossary/02AntOnym,
