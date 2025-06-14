@@ -1,0 +1,10 @@
+- LineBreak
+- LineBreak▶️Shift+Enter
+- Line Break
+- linebreak
+- line break
+- 줄바꿈
+- 개행
+- NewLine
+- New Line
+- new line

@@ -1,0 +1,15 @@
+- parallel commands
+- MultiCommand
+- Multi Command
+- chained commands
+- TotalCommand
+- Total Command
+- compound command
+- combined commands
+- 여러 명령 한번에 실행
+- 한번에실행
+- 일괄실행
+- 한번에 실행
+- concurrent execution
+- concurrent command
+- OneCommand

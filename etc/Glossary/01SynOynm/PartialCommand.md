@@ -1,0 +1,19 @@
+- sequential execution
+- sequential command
+- Sequential Command
+- Sequence Command
+- SequenceCommand
+- SequentialCommand
+- individual command
+- Individual Command
+- IndividualCommand
+- single command
+- Single Command
+- SingleCommand
+- 개별 명령
+- 개별명령
+- 순차실행
+- Partial Command
+- Partially Command
+- PartialCommand
+- Command
