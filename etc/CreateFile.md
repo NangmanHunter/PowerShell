@@ -2,11 +2,6 @@
 - [SingleFileCreate](#singlefilecreate)
 - [MultiFileCreate](#multifilecreate)
 
-Alias
-- File
-- FileCreate
-- CreateFile
-
 ## SingleFileCreate
 ```
 📌.
