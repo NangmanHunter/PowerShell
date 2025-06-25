@@ -114,3 +114,23 @@
       New-Item -Path $file -ItemType File -Force
   }
   ```
+
+## MarkDownInputMultiCreateFile
+```
+📌.
+ └📄01InputFile.md
+ └📄02InputFile.md
+```
+- ```ps1
+  Write-Host "📄InputFileName `n👉Enter Enter(Ctrl+Z Enter)"
+  $inputText = @()
+  while ($line = [Console]::In.ReadLine()) {
+      if ($line -eq $null) { break }
+      $inputText += $line
+  }
+
+  $files = $inputText | ForEach-Object { "$_.md" }
+  foreach ($file in $files) {
+      New-Item -Path $file -ItemType File -Force
+  }
+  ```
