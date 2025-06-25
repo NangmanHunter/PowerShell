@@ -1,0 +1,5 @@
+- ne
+- not-equal
+- NE
+- NotEqual
+- -ne

@@ -1,0 +1,7 @@
+- eq
+- Eq
+- Equal
+- EQ
+- EQual
+- equal
+- -eq
