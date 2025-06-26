@@ -1,4 +1,9 @@
 # UpdateFile
+- [Update](#update)
+- [PrefixUpdate](#prefixupdate)
+- [SuffixUpdate](#suffixupdate)
+- [Delete](#delete)
+
 
 Alias
 - UpdateFile
@@ -38,6 +43,28 @@ Alias
 00▶️00.md
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name + '.md' }
+  ```
+
+
+## PrefixUpdate
+- ```ps1  
+  Get-ChildItem -File | Rename-Item -NewName { "🟥Prefix$($_.Name)" }
+  ```
+- ```ps1  
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '^', "🟥Prefix" }
+  ```
+
+참조
+- ❌-replace $_.Name
+- ❌()
+- 정규표현식오인
+
+## SuffixUpdate
+- ```ps1  
+  Get-ChildItem -File | Rename-Item -NewName { "$($_.Name)🟦Suffix" }
+  ```
+- ```ps1  
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '$', "🟦Suffix" }
   ```
 
 
