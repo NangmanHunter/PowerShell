@@ -1,0 +1,4 @@
+- 상위 경로
+- parent directory	            
+- 현재 위치보다 위
+- ParentDirectory

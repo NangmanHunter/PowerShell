@@ -1,0 +1,4 @@
+- AbsolutePath
+- absolute path	
+- 절대 경로
+- 드라이브 루트부터 전체 경로

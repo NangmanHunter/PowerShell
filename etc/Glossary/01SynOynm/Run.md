@@ -1,0 +1,20 @@
+- Run
+- Run Script
+- Run ScriptFile
+- RunScriptFile
+- RunScript
+- ScriptFileRun
+- ScriptRun
+- Run File
+- RunFile
+- FileRun
+- PowerShellRun
+- PowerShellRunning
+- PowerShell▶️Run
+- PowerShell▶️Running
+- RunPowerShell
+- RunningPowerShell
+- Running
+- 실행
+- run
+- running

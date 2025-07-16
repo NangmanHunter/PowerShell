@@ -8,10 +8,13 @@
  └📄File.md
 ```
 - ```ps1
-  New-Item -Path "📄File.md" -ItemType File
+  Out-File "📄File.md"
   ```
 - ```ps1
   "" | Out-File "📄File.md"
+  ```
+- ```ps1
+  New-Item -Path "📄File.md" -ItemType File
   ```
 - ```ps1
   Set-Content -Path "📄File.md" -Value ""

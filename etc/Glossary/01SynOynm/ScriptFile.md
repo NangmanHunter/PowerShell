@@ -1,0 +1,12 @@
+- ScriptFile
+- Script File
+- Scripting File
+- ScriptingFile
+- Script
+- script
+- File
+- script-file
+- script file
+- 스크립트파일
+- 스크립트
+- 파일

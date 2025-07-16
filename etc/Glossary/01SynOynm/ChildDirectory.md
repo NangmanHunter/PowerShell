@@ -1,7 +1,7 @@
+- 하위 경로
+- subdirectory
+- child directory	
+- 현재 위치 아래
 - ChildDirectory
-- ChildItemDirectory
-- ChildItem Directory
-- Child-Item Directory
-- 자식디렉토리
-- 자식폴더
-- Child Directory
+- subdirectory / child directory	
+- SubDirectory

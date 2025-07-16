@@ -1,0 +1,6 @@
+- 현재 경로
+- current directory	            
+- . 로 표현
+- CurrentDirectory
+- directory	            
+- Directory

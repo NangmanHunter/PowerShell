@@ -66,10 +66,12 @@ Alias
 
 ```
 📁.
- └📁...
  └📁01SynOnym
  └📁02AntOnym 
 ```
+- ```ps1
+  cd ... \📁Glossary
+  ```
 - ```ps1
   $RootPath = "."
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
@@ -82,6 +84,19 @@ Alias
           Set-Content $FileName -Encoding UTF8
       }
   }
+  ```
+
+
+
+
+```
+📁.
+ └📁...
+ └📁01SynOnym
+ └📁02AntOnym 
+```
+- ```ps1
+  cd ... \📁Glossary
   ```
 - ```ps1
   $RootPath = "."
