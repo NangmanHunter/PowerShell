@@ -70,18 +70,76 @@ Alias
  └📁02AntOnym 
 ```
 - ```ps1
-  $RootPath = "."
-  Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
-      $_.Name -in @("01SynOnym", "02AntOnym")
-  } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
-          $FileName = $_.FullName
-          Get-Content $FileName -Encoding UTF8 |
-          Sort-Object |
-          Set-Content $FileName -Encoding UTF8
-      }
-  }
+    $RootPath = "."
+
+    Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
+        $_.Name -in @("01SynOnym", "02AntOnym")
+    } | ForEach-Object {
+        Get-ChildItem -LiteralPath $_.FullName -File | ForEach-Object {
+            $FileName = $_.FullName
+
+            Write-Host "Processing: $FileName"
+
+            Get-Content -LiteralPath $FileName -Encoding UTF8 |
+            Sort-Object |
+            Set-Content -LiteralPath $FileName -Encoding UTF8
+        }
+    }
   ```
+  - ```ps1
+    $RootPath = "."
+    Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
+        $_.Name -in @("01SynOnym", "02AntOnym")
+    } | ForEach-Object {
+        Get-ChildItem -Path $_.FullName -File | ForEach-Object {
+            $FileName = $_.FullName
+            Get-Content $FileName -Encoding UTF8 |
+            Sort-Object |
+            Set-Content $FileName -Encoding UTF8
+        }
+    }
+    ```
+  - ```ps1
+    $RootPath = "."
+    Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
+        $_.Name -in @("01SynOnym", "02AntOnym")
+    } | ForEach-Object {
+        Get-ChildItem -Path $_.FullName -File | ForEach-Object {
+            $FileName = $_.FullName
+  
+            Write-Host "Processing: $FileName"
+  
+            Get-Content $FileName -Encoding UTF8 |
+            Sort-Object |
+            Set-Content $FileName -Encoding UTF8
+        }
+    }
+    ```
+    - Log추가
+    - 파일제목▶️❌[]
+    - 파일제목▶️✅［］
+    - 파일제목▶️✅［i］
+  - ```ps1
+      $RootPath = "."
+  
+      Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
+          $_.Name -in @("01SynOnym", "02AntOnym")
+      } | ForEach-Object {
+          Get-ChildItem -LiteralPath $_.FullName -File | ForEach-Object {
+              $FileName = $_.FullName
+  
+              Write-Host "Processing: $FileName"
+  
+              Get-Content -LiteralPath $FileName -Encoding UTF8 |
+              Sort-Object |
+              Set-Content -LiteralPath $FileName -Encoding UTF8
+          }
+      }
+    ```
+    - ❌-Path
+    - ✅-LiteralPath
+    - 파일제목▶️✅[]
+
 
 
 
@@ -105,6 +163,7 @@ Alias
       }
   }
   ```
+
 
 
 Pattern  
