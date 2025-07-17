@@ -70,9 +70,6 @@ Alias
  └📁02AntOnym 
 ```
 - ```ps1
-  cd ... \📁Glossary
-  ```
-- ```ps1
   $RootPath = "."
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -in @("01SynOnym", "02AntOnym")
@@ -95,9 +92,6 @@ Alias
  └📁01SynOnym
  └📁02AntOnym 
 ```
-- ```ps1
-  cd ... \📁Glossary
-  ```
 - ```ps1
   $RootPath = "."
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
