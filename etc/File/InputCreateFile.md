@@ -1,9 +1,9 @@
 # InputFileCreate
-- [SingleInputFileCreate](#singleinputfilecreate)
-- [MultiInputFileCreate](#multiinputfilecreate)
+- [Single`InputFileCreate`](#singleinputfilecreate)
+- [Multi`InputFileCreate`](#multiinputfilecreate)
 
 
-## SingleInputFileCreate
+## Single`InputFileCreate`
 ```
 📌.
  └📄01InputFile
@@ -20,7 +20,7 @@
   }
   ```
 
-## MultiInputFileCreate
+## Multi`InputFileCreate`
 ```
 📌.
  └📄01InputFile
