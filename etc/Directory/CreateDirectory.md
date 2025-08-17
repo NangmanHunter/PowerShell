@@ -1,20 +1,17 @@
-# DirectoryCreate
-- [SingleDirectoryCreate](#singledirectorycreate)
-- [MultiDirectoryCreate](#multidirectorycreate)
-- [SubSingleDirectoryCreate](#subsingledirectorycreate)
-- [SubMultiDirectoryCreate](#submultidirectorycreate)
+# CreateDirectory
+- [Single`CreateDirectory`](#singlecreatedirectory)
+- [Multi`CreateDirectory`](#multicreatedirectory)
+- [SubSingle`CreateDirectory`](#subsinglecreatedirectory)
+- [SubMulti`CreateDirectory`](#submulticreatedirectory)
 
 
-Alias
-- CreateDirectory
-- Create
-- Directory
-## SingleDirectoryCreate
+## Single`CreateDirectory`
 - ```ps1
   mkdir 📁01Folder
   ```
 
-## MultiDirectoryCreate
+
+## Multi`CreateDirectory`
 - ```ps1
   mkdir 📁01Folder, 📁02Folder
   ```
@@ -78,7 +75,7 @@ Alias
 
 
 
-## SubSingleDirectoryCreate
+## SubSingle`CreateDirectory`
 ```
 📌.
  └📁Glossary
@@ -88,7 +85,7 @@ Alias
   mkdir Glossary/01SynOnym
   ```
 
-## SubMultiDirectoryCreate
+## SubMulti`CreateDirectory`
 ```
 📌.
  └📁Glossary

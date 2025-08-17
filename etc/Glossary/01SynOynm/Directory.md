@@ -3,3 +3,10 @@
 - Folder
 - 폴더
 - 디렉토리
+- File👉Directory
+- Directory▶️File
+- Directory◀️File
+- 📌표현▶️Directory>>Folder
+- 📌표현▶️Directory-File>>Folder-File
+- 📌표현▶️✅Directory>>❌Folder
+- 📌표현▶️✅Directory-File>>❌Folder-File

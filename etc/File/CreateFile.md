@@ -1,8 +1,9 @@
-# FileCreate
-- [SingleFileCreate](#singlefilecreate)
-- [MultiFileCreate](#multifilecreate)
+# CreateFile
+- [Single`CreateFile`](#singlecreatefile)
+- [Multi`CreateFile`](#multicreatefile)
 
-## SingleFileCreate
+
+## Single`CreateFile`
 ```
 📌.
  └📄File.md
@@ -23,7 +24,7 @@
   fsutil file createnew "📄File.md" 0
   ```
 
-## MultiFileCreate
+## Multi`CreateFile`
 ```
 📌.
  └📄01File.md

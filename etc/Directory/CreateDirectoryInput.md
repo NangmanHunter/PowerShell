@@ -1,8 +1,9 @@
-# InputDirectoryCreate
-- [SingleInput](#singleinput)
-- [MultiInput](#multiinput)
+# InputCreateDirectory
+- [Single`InputCreateDirectory`](#singleinputcreatedirectory)
+- [Multi`InputCreateDirectory`](#multiinputcreatedirectory)
 
-## SingleInput
+
+## Single`InputCreateDirectory`
 ```
 📌.
  └📁01InputDirectory
@@ -20,7 +21,8 @@
   }
   ```
 
-## MultiInput
+
+## Multi`InputCreateDirectory`
 ```
 📌.
  └📁01InputDirectory
