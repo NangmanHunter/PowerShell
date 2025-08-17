@@ -1,0 +1,10 @@
+- 한 줄짜리 명령어 작성
+- Command
+- command
+- cm
+- Cm
+- cmd
+- Cmd
+- Ex. Get-Process
+- Ex. Get-ChildItem C:\
+- 즉, PowerShell이 제공하는 기본 명령(=Cmdlet)을 호출한 것일 뿐, “작성”한 건 아님.

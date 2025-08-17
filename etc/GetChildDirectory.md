@@ -1,13 +1,16 @@
-#
-## GetChildDirectory
-```ps1
-ls
-```
+# GetChildDirectory
+## GetChildDirectory`Script`
 ```ps1
 Get-ChildItem -Directory
 ```
+- ```ps1
+  ls
+  ```
+- ```ps1
+  Get-ChildItem -Directory
+  ```
 
-## CreateDirectoryGetChildDirectory
+## CreateDirectoryGetChildDirectory`Script`
 ```bash
 .\A\Directory\
 .\B\Directory\
@@ -23,7 +26,7 @@ Get-ChildItem -Directory
   - Join-Path $_.FullName "test" → 해당 폴더 경로 + test 하위 경로 생성
   - -Force → 이미 있으면 에러 없이 넘어감
 
-## MutliCreateDirectoryGetChildDirectory
+## MutliCreateDirectoryGetChildDirectory`Script`
 ```bash
 .\A\01Directory\
 .\A\02Directory\
@@ -39,7 +42,7 @@ Get-ChildItem -Directory
   }
   ```
 
-## ChildCreateDirectoryGetChildDirectory
+## ChildCreateDirectoryGetChildDirectory`Script`
 ```bash
 .\A\Directory\ChildDirectory
 .\B\Directory\ChildDirectory
@@ -51,7 +54,7 @@ Get-ChildItem -Directory
   }
   ```
 
-## MultiChildCreateDirectoryGetChildDirectory
+## MultiChildCreateDirectoryGetChildDirectory`Script`
 ```bash
 .\A\Directory\01ChildDirectory
 .\A\Directory\02ChildDirectory

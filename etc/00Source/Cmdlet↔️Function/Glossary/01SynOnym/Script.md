@@ -1,0 +1,16 @@
+- Script
+- 스크립트(Script)
+- Script (스크립트)
+- 📌01Script▶️PowerShell에서 명령어를 직접 작성해둔 것은 보통 스크립트(Script)라고 부르고,
+- 📌02Script▶️재사용 목적이면 함수(Function), 집합이면 모듈(Module)이라고 합니다.
+- PowerShell Script
+- PowerShellScript
+- 🔎Command👉Script👉Funtion👉Module
+- 🚩대단위▶️소단위
+- 🚩대단위▶️중단위▶️소단위
+- 🚩대단위▶️중대단위▶️중소단위▶️소단위
+- 🚩대단위▶️대중단위▶️소중단위▶️소단위
+- 🚩Module◀️Funtion◀️Script◀️Command
+- 🚩Module▶️Funtion▶️Script▶️Command
+- 🚩재사용집합◀️재사용◀️2줄이상◀️1줄
+- 🚩재사용집합▶️재사용▶️2줄이상▶️1줄
