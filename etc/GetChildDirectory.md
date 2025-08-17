@@ -1,14 +1,19 @@
 # GetChildDirectory
 ## GetChildDirectory`Script`
-```ps1
-Get-ChildItem -Directory
+```bash
+.\A
+.\B
+.\C
 ```
-- ```ps1
-  ls
-  ```
 - ```ps1
   Get-ChildItem -Directory
   ```
+  - ```ps1
+    ls
+    ```
+  - ```ps1
+    Get-ChildItem -Directory
+    ```
 
 ## CreateDirectoryGetChildDirectory`Script`
 ```bash
