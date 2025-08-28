@@ -1,0 +1,6 @@
+- Folder
+- 📌Win▶️Directory<<Folder
+- 📌Ps1▶️Directory>>Folder
+- 📌Ps1▶️✅Directory>>❌Folder
+- 📌Ps1▶️✅Directory
+- 📌Ps1▶️❌Folder

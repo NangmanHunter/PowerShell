@@ -1,0 +1,9 @@
+- 📌표현▶️✅Name>>❌Title
+- 📌표현▶️Name>>Title
+- Name
+- Title
+- ✅Name
+- ❌Title
+- Name = 폴더나 파일 이름
+- Name=DirectoryName+FileName
+- Name▶️DirectoryNameㆍFileName

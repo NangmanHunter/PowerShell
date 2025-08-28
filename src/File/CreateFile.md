@@ -9,6 +9,9 @@
  └📄File.md
 ```
 - ```ps1
+  Out-File 📄File.md
+  ```
+- ```ps1
   Out-File "📄File.md"
   ```
 - ```ps1
