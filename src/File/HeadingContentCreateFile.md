@@ -1,4 +1,6 @@
 # HeadingContentCreateFile
+- [Typing`HeadingContentCreateFile`](#typingheadingcontentcreatefile)
+- [FileName`HeadingContentCreateFile`](#filenameheadingcontentcreatefile)
 
 
 ## Typing`HeadingContentCreateFile`

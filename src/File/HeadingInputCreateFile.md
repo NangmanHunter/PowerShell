@@ -1,4 +1,7 @@
 # HeadingInputCreateFile
+- [Single`HeadingInputCreateFile`](#singleheadinginputcreatefile)
+- [Multi`HeadingInputCreateFile`](#multiheadinginputcreatefile)
+
 
 ## Single`HeadingInputCreateFile`
 SingleHeading
