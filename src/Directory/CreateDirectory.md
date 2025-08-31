@@ -129,3 +129,18 @@
       New-Item -ItemType Directory -Path "Glossary/$name"
   }
   ```
+
+
+
+```
+📌.
+ └📁00Glossary
+   └📁01SynOnym
+   └📁02AntOnym
+   └📁03HypOnym
+```
+```ps1
+mkdir 00Glossary/01SynOnym,
+      00Glossary/02AntOnym,
+      00Glossary/03HypOnym
+```
