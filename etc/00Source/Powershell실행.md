@@ -6,8 +6,8 @@
 
 
 ## OptimizeFileRun
-- ✅F5
-- ❌Ctrl+Alt+N
-- ❌Run `▶` + Click
-- ❌Run Code `▶` + Click
 - ❌`.\file.ps1`
+- ✅F5
+- ❌Run `▶` + Click
+- ❌Ctrl+Alt+N
+- ❌Run Code `▶` + Click

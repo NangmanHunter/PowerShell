@@ -1,4 +1,8 @@
 # FileRun
+- [CLI`FileRun`](#clifilerun)
+- [GUI`FileRun`](#guifilerun)
+
+
 ## CLI`FileRun`
 - `.\file.ps1`
 <details open>
