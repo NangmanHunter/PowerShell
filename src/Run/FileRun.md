@@ -1,75 +1,29 @@
 # FileRun
-- [RelativePath`FileRun`](#relativepathfilerun)
-- [AbsoltePath`FileRun`](#absoltepathfilerun)
-
-
-## RelativePath`FileRun`
-```ps1
-.\📄File.ps1
-```
+## CLI`FileRun`
+- ✅`.\file.ps1`
 <details open>
     <summary></summary>
 
-
-```ps1
-.\
-```
-```ps1
-.\📄File
-```
-```ps1
-.\📄File.ps1
-```
-```ps1
-./
-```
-```ps1
-./📄File
-```
-```ps1
-./📄File.ps1
-```
-```ps1
-PowerShell .\📄File.ps1
-```
-```ps1
-Powershell .\📄File.ps1
-```
-```ps1
-powershell .\📄File.ps1
-```
-```ps1
-PowerShell ./📄File.ps1
-```
-```ps1
-Powershell ./📄File.ps1
-```
-```ps1
-powershell ./📄File.ps1
-```
+PowerShell
+- `.\file.ps1`
+- `powershell .\file.ps1`
 </details>
 
 
-## AbsoltePath`FileRun`
-```ps1
-C:\...\📄File.ps1
-```
+## GUI`FileRun`
+- ✅F5
 <details open>
     <summary></summary>
 
-```ps1
-C:\
-```
-```ps1
-C:\📄File
-```
-```ps1
-C:\...\📄File
-```
-```ps1
-C:\...\📄File.ps1
-```
-```ps1
-powershell C:\...\📄File.ps1
-```
+Run
+- F5
+- Run `▶` + Click
+
+
+RunCode
+- Ctrl+Alt+N
+- Run Code `▶` + Click
 </details>
+
+
+

@@ -32,3 +32,4 @@
 - 📌Run▶️❌DirectoryRun👉❌📁00
 - Powershell실행
 - Powershell런
+- PowershellRun

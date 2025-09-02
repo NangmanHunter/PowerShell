@@ -3,11 +3,11 @@
 - InputCode
 - Run
 
-## CLI
-Run
-- .\test.ps1
 
 
-## GUI
-- Run 
-- F5
+## OptimizeFileRun
+- ✅F5
+- ❌Ctrl+Alt+N
+- ❌Run `▶` + Click
+- ❌Run Code `▶` + Click
+- ❌`.\file.ps1`
