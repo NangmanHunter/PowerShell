@@ -1,6 +1,6 @@
 # FileRun
 ## CLI`FileRun`
-- ✅`.\file.ps1`
+- `.\file.ps1`
 <details open>
     <summary></summary>
 
@@ -11,7 +11,7 @@ PowerShell
 
 
 ## GUI`FileRun`
-- ✅F5
+- F5
 <details open>
     <summary></summary>
 
