@@ -4,7 +4,7 @@
 
 ---
 
-### ✅ 📘 PowerShell에서 함수에 설명을 붙이는 공식 방식
+## 함수설명
 
 ```powershell
 function Get-Something {

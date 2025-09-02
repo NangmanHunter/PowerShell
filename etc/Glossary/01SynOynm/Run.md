@@ -30,3 +30,5 @@
 - 📌Run▶️✅FileRun👉✅📄00.ps1
 - 📌Run▶️❌DirectoryRun
 - 📌Run▶️❌DirectoryRun👉❌📁00
+- Powershell실행
+- Powershell런
