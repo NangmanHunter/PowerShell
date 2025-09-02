@@ -1,0 +1,11 @@
+- ChangeDirectory
+- CD
+- Cd
+- cd
+- Cd▶️❌FileCd
+- Cd▶️❌FileCd👉❌`cd 📄00.ps1`
+- ❌`cd 📄00.ps1`
+- ✅`cd 📁00`
+- Cd▶️✅DirectoryCd
+- Cd▶️✅DirectoryCd👉✅`cd 📁00`
+- Cd▶️✅DirectoryCd👉⭕`cd 📁00`

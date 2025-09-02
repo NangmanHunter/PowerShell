@@ -6,6 +6,9 @@
 - ScriptFileRun
 - ScriptRun
 - Run File
+- Running File
+- RunningFile
+- FileRunning
 - RunFile
 - FileRun
 - PowerShellRun
@@ -18,3 +21,12 @@
 - 실행
 - run
 - running
+- 실행런
+- 런실행
+- 📌표현▶️Run>>Running
+- Run대상▶️파일(.ps1, .exe 등)ㆍCmdlet/명령어ㆍ문자열코드 (Invoke-Expression)ㆍ스크립트 블록 (& {})
+- 📌Run▶️✅FileRun
+- 📌Run▶️✅FileRun👉⭕📄00.ps1
+- 📌Run▶️✅FileRun👉✅📄00.ps1
+- 📌Run▶️❌DirectoryRun
+- 📌Run▶️❌DirectoryRun👉❌📁00

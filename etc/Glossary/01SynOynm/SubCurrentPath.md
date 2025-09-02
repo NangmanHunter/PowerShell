@@ -1,0 +1,24 @@
+- `.\`
+- Relative path notation (상대 경로 표기법)
+- Current directory reference (현재 디렉터리 참조)
+- Dot-slash notation (dot-slash 표기)
+- dot slash
+- Dot-slash notation
+- Relative path with current directory
+- Dot-slash (닷슬래시)
+- Current directory (커런트 디렉터리) 참조
+- `.\`▶️CurrentPath\
+- `.\`▶️CurrentPathChild
+- `.\`▶️CurrentPath-하위 접근(하위 경로) 표시자
+- `.\`▶️CurrentPath+하위 접근(하위 경로) 표시자
+- `.\`▶️CurrentPath + 하위 접근(하위 경로) 표시자
+- `.\`▶️CurrentPath-`/` → 하위(subfolder)로 이동
+- `.\`▶️CurrentPath-하위
+- `.\`▶️CurrentPath-subfolder
+- `.\`▶️CurrentPath-sub
+- `.\`▶️CurrentPath-Sub
+- `.\`▶️CurrentPathSub
+- `.\`▶️SubCurrentPath
+- CurrentPathSub
+- SubCurrentPath
+- `/` → 경로 구분자 (path separator, directory separator)

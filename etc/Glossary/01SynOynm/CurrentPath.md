@@ -3,3 +3,9 @@
 - 현재경로기준
 - 현재
 - 현재기준
+- . 👉 CurrentPath
+- `.` 👉 CurrentPath
+- `.` 👉 Dot
+- `.` 👉 CurrentDirectory
+- 📌AA\BB\CC.ps1▶️`.` 👉AA\BB
+- 📌AA\BB\CC.ps1▶️`.\`👉AA\BB\

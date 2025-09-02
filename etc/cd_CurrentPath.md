@@ -7,6 +7,7 @@ Ko
 En
 - Open in Integrated Terminal
 
+
 ## Extension
 Extension
 - Terminal Here
@@ -18,4 +19,3 @@ Termianl
 ShortCut
 - Terminal Here: Create Terminal
 - KeyBinding
-- 
