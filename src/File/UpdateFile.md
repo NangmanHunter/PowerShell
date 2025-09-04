@@ -1,15 +1,11 @@
 # UpdateFile
-- [Update](#update)
-- [PrefixUpdate](#prefixupdate)
-- [SuffixUpdate](#suffixupdate)
-- [Delete](#delete)
+- [UpdateFile`Name`](#updatefilename)
+- [PrefixUpdateFile`Name`](#prefixupdatefilename)
+- [SuffixUpdateFile`Name`](#suffixupdatefilename)
+- [DeleteUpdateFile`Name`](#deleteupdatefilename)
 
 
-Alias
-- UpdateFile
-- UpdateFileName
-- ChildUpdateFile
-## Update
+## UpdateFile`Name`
 - ```ps1
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace '📄01File', '📄02File'
@@ -23,30 +19,36 @@ Alias
   }
   ```
 
-
-
+```
 00.cList▶️00.md
+```
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '.md' }
   ```
+
+```
 00.cLayer▶️00.md
+```
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '.md' }
   ```
 
+```
 00.xxx▶️00.md
+```
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + '.md' }
   ```
 
-
+```
 00▶️00.md
+```
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name + '.md' }
   ```
 
 
-## PrefixUpdate
+## PrefixUpdateFile`Name`
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { "🟥Prefix$($_.Name)" }
   ```
@@ -55,11 +57,12 @@ Alias
   ```
 
 참조
-- ❌-replace $_.Name
-- ❌()
-- 정규표현식오인
+- -replace👉❌-replace $_.Name
+- -replace👉❌()
+- -replace👉정규표현식오인
 
-## SuffixUpdate
+
+## SuffixUpdateFile`Name`
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { "$($_.Name)🟦Suffix" }
   ```
@@ -68,21 +71,15 @@ Alias
   ```
 
 
-## Delete
+## DeleteUpdateFile`Name`
 - ```ps1
   Get-ChildItem -File | ForEach-Object {
-      $newName = $_.Name -replace 'ㅁㅁ', ''
+      $newName = $_.Name -replace '📌FileName', ''
       Rename-Item -Path $_.FullName -NewName $newName
   }
   ```
 - ```ps1
-  Get-ChildItem -File | ForEach-Object {
-      $newName = $_.Name -replace '01데이터모델링의이해_', ''
-      Rename-Item -Path $_.FullName -NewName $newName
-  }
-  ```
-- ```ps1
-  $OriginName='ㅁㅁ'
+  $OriginName='📌FileName'
   $UpdateName=''
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace $OriginName, $UpdateName
@@ -91,7 +88,7 @@ Alias
 
   ```
 - ```ps1
-  $BeforeName='ㅁㅁ'
+  $BeforeName='📌FileName'
   $AfterName=''
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace $BeforeName, $AfterName
@@ -99,7 +96,7 @@ Alias
   }
   ```
 - ```ps1
-  $Name1='ㅁㅁ'
+  $Name1='📌FileName'
   $Name2=''
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace $Name1, $Name2
@@ -107,7 +104,7 @@ Alias
   }
   ```
 - ```ps1
-  $Name01='ㅁㅁ'
+  $Name01='📌FileName'
   $Name02=''
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace $Name01, $Name02
@@ -116,39 +113,27 @@ Alias
 
   ```
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace 'ㅁㅁ', '' }
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '📌FileName', '' }
   ```
 
+
+```
 00.md▶️00  
+```
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.md', '' }
   ```
-  
+
+```
 00.cList▶️00  
+```
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '' }
   ```
 
+```
 00.cLayer▶️00
+```
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '' }
   ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
