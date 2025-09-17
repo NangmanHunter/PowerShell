@@ -4,13 +4,19 @@
 
 
 ## CLI`FileRun`
-- `.\file.ps1`
+```ps1
+.\📄File.ps1
+```
 <details open>
     <summary></summary>
 
-PowerShell
-- `.\file.ps1`
-- `powershell .\file.ps1`
+
+```ps1
+.\📄File.ps1
+```
+```ps1
+powershell .\📄File.ps1
+```
 </details>
 
 
@@ -19,14 +25,19 @@ PowerShell
 <details open>
     <summary></summary>
 
-Run
-- F5
-- Run `▶` + Click
+파일탐색기Run
+- 우클릭
+- PowerShell에서 실행
 
 
-RunCode
-- Ctrl+Alt+N
-- Run Code `▶` + Click
+VsCodeRun
+- Run `▶`
+  - F5
+
+
+VsCodeRun
+- Run Code `▶`
+  - Ctrl+Alt+N
 </details>
 
 
