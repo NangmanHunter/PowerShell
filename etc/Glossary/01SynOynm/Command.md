@@ -1,0 +1,11 @@
+- Command
+- command
+- 명령어
+- 명령
+- 쉘/터미널 문맥 → command 또는 cmdlet (특히 PowerShell 전용 명령은 cmdlet이라 불러요)
+- Linux/Unix 쪽에서 → command 또는 command-line utility
+- 가장 일반적 → command
+- 프로그래밍 용어로 → instruction, directive 같은 표현도 쓰지만, 터미널에서는 잘 안 씀
+- 'Command'는 명사로는 '명령', '지휘', '지휘권'을 뜻하며, 동사로는 '명령하다', '지휘하다', '강요하다'
+- Command=명령
+- Ex.CommandCenter=명령센터

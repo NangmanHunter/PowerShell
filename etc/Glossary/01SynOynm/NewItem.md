@@ -1,0 +1,8 @@
+- NewItem
+- New-Item
+- 📌Help▶️`Get-Help New-Item -Full`
+- 📌Help▶️`Get-Help New-Item -Examples`
+- 📌`-ItemType`▶️-ItemType의 기본값(None) = “파일 생성으로 해석” (FileSystem provider 기준)
+- ni
+- `ni`
+- Alias▶️`ni👉New-Item`

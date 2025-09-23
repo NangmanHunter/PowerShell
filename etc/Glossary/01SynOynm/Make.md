@@ -1,0 +1,13 @@
+- Make
+- MaKe
+- MK
+- mk
+- `Make`
+- make
+- Create
+- 생성
+- 생성하다
+- 📌표현▶️Make >> Create
+- 📌표현▶️PowerShell👉Make >> Create
+- 📌표현▶️PowerShell👉Make>>Create
+- 📌표현▶️Web👉Make<<Create

@@ -6,23 +6,55 @@
 
 
 ## Single`CreateDirectory`
-- ```ps1
-  mkdir 📁01Folder
-  ```
+```ps1
+md 📁Directory
+```
+<details open>
+    <summary></summary>
+
+```ps1
+md 📁Directory
+```
+```ps1
+mkdir 📁Directory
+```
+```ps1
+New-Item 📁Directory -ItemType Directory
+```
+```ps1
+New-Item -Path 📁Directory -ItemType Directory
+```
+```ps1
+New-Item -Path "📁Directory" -ItemType Directory
+```
+```ps1
+New-Item -Path "C:\📁Directory" -ItemType Directory
+```
+</details>
 
 
 ## Multi`CreateDirectory`
-- ```ps1
-  mkdir 📁01Folder, 📁02Folder
-  ```
-- ```ps1
-  mkdir 📁01Folder, 
-  📁02Folder
-  ```
-- ```ps1
-  mkdir 📁01Folder, 
-        📁02Folder
-  ```
+```ps1
+md 📁01Directory, 📁02Directory
+```
+<details open>
+    <summary></summary>
+
+```ps1
+md 📁01Directory, 📁02Directory
+```
+```ps1
+mkdir 📁01Directory, 📁02Directory
+```
+```ps1
+mkdir 📁01Directory, 
+📁02Directory
+```
+```ps1
+mkdir 📁01Directory, 
+      📁02Directory
+```
+</details>
 
 
 ```
@@ -111,6 +143,11 @@
   cd Glossary; 
   mkdir 01SynOnym, 02AntOnym, 03HypOnym
   ```
+- ```ps1
+  mkdir Glossary | 
+  cd Glossary | 
+  mkdir 01SynOnym, 02AntOnym, 03HypOnym 
+  ```  
 - ```ps1
   mkdir Glossary/01SynOnym,
         Glossary/02AntOnym,

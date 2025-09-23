@@ -17,3 +17,10 @@ code pre-commit
 ise pre-commit
 ```
 - PowerShell 내장 에디터로 열기
+
+
+## OpenDirecotry
+VsCodeOpenDirecotry
+```
+code .
+```

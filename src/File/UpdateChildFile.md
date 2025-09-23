@@ -1,11 +1,11 @@
-# UpdateFile
-- [UpdateFile`Name`](#updatefilename)
-- [PrefixUpdateFile`Name`](#prefixupdatefilename)
-- [SuffixUpdateFile`Name`](#suffixupdatefilename)
-- [DeleteUpdateFile`Name`](#deleteupdatefilename)
+# UpdateChildFile
+- [UpdateChildFile`Name`](#updateChildfilename)
+- [PrefixUpdateChildFile`Name`](#prefixupdateChildfilename)
+- [SuffixUpdateChildFile`Name`](#suffixupdateChildfilename)
+- [DeleteUpdateChildFile`Name`](#deleteupdateChildfilename)
 
 
-## UpdateFile`Name`
+## UpdateChildFile`Name`
 - ```ps1
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace '📄01File', '📄02File'
@@ -48,7 +48,7 @@
   ```
 
 
-## PrefixUpdateFile`Name`
+## PrefixUpdateChildFile`Name`
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { "🟥Prefix$($_.Name)" }
   ```
@@ -62,7 +62,7 @@
 - -replace👉정규표현식오인
 
 
-## SuffixUpdateFile`Name`
+## SuffixUpdateChildFile`Name`
 - ```ps1  
   Get-ChildItem -File | Rename-Item -NewName { "$($_.Name)🟦Suffix" }
   ```
@@ -71,7 +71,7 @@
   ```
 
 
-## DeleteUpdateFile`Name`
+## DeleteUpdateChildFile`Name`
 - ```ps1
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace '📌FileName', ''

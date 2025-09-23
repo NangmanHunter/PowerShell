@@ -1,11 +1,17 @@
 - Directory
+- Directory=Folder
+- Directory-Folder
+- Directory-FolderDirectory
+- Directory▶️Folder
 - directory
 - Folder
 - 폴더
 - 디렉토리
 - File👉Directory
+- Directory_File
 - Directory▶️File
 - Directory◀️File
+- 📌표현▶️Directory vs. Folder
 - 📌표현▶️Directory>>Folder
 - 📌표현▶️Directory-File>>Folder-File
 - 📌표현▶️✅Directory>>❌Folder

@@ -1,4 +1,10 @@
 - Cmdlet
+- cmdlet
+- CommandLet
+- command
+- cmdlet
+- 발음: command-let
+- command-let
 - CmdletCommandType
 - Cmdlet CommandType
 - Cmdlet Type

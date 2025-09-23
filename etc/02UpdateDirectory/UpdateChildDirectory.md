@@ -1,5 +1,5 @@
-# UpdateDirectory
-## ChildUpdateDirectory
+# UpdateChildDirectory
+## ChildUpdateChildDirectory
 Update
 - ```ps1
   Get-ChildItem -Directory | ForEach-Object {
@@ -30,7 +30,7 @@ DeleteUpdate
   ```
 
 
-## RecursiveUpdateDirectory
+## RecursiveUpdateChildDirectory
 Update
 - ```ps1
   Get-ChildItem -Directory -Recurse | 
@@ -55,7 +55,7 @@ DeleteUpdate
 
 
 
-## PathUpdateDirectory
+## PathUpdateChildDirectory
 - ```ps1
   $targetPath = "C:\Users\YourName\Documents"
   Get-ChildItem -Path $targetPath -Directory | ForEach-Object {
@@ -78,8 +78,8 @@ DeleteUpdate
 
 
 Alias
-- TargetPathUpdateDirectory
-- TargetUpdateDirectory
-- PathUpdateDirectory
+- TargetPathUpdateChildDirectory
+- TargetUpdateChildDirectory
+- PathUpdateChildDirectory
 
 

@@ -1,0 +1,17 @@
+- MoveItem
+- Move-Item
+- mv
+- ✅mv
+- `mv`
+- mi
+- `mi`
+- move
+- `move`
+- Alias▶️`mi     👉Move-Item`
+- Alias▶️`move   👉Move-Item`
+- Alias▶️`mv     👉Move-Item`
+- 📌표현▶️역사적-`mv`
+- 📌표현▶️역사적-`mv`>>`move`
+- 📌표현▶️역사적-`mv`>>`mi`
+- 📌표현▶️역사적-`mv`>>`ren`
+- 📌표현▶️역사적-기본 유닉스/리눅스 명령어 세트에는 mv만 있었습니다.

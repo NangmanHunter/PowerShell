@@ -1,0 +1,6 @@
+- Remove
+- `Remove`
+- 지우기
+- Delete
+- 📌표현▶️PowerShell👉Remove>>Delete
+- 📌표현▶️Web👉Remove<<Delete

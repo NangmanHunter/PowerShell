@@ -1,0 +1,11 @@
+- GetHelp
+- Get-Help
+- get-Help
+- get-help
+- `Get-Help`
+- Help
+- help
+- `man`
+- Alias▶️`man👉help`
+- 엄밀히▶️`help`↔`Get-Help`
+- 엄밀히▶️`help`≠`Get-Help`
