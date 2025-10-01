@@ -1,4 +1,9 @@
 - WriteHost
+- WriteHost=단순출력
+- WriteHost=단순출력용
+- WriteHost=출력
+- WriteHost=출력용
+- WriteHost=✅출력
 - Write-Host
 - 출력
 - 출력용
@@ -23,3 +28,8 @@
 - ❌파이프라인
 - ❌후속처리
 - ❌데이터전달
+- 단순출력용=WriteHost
+- 단순출력용=✅WriteHost
+- 단순출력용=✅WriteHostㆍ❌WriteOutput
+- 단순출력용=❌WriteOutput
+- 단순출력용=❌WriteOutput-넘김용

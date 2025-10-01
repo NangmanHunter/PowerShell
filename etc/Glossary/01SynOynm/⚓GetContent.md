@@ -1,0 +1,5 @@
+- ⚓GetContent
+- GetContent
+- Get-Content
+- `Get-Content`
+- `GetContent`

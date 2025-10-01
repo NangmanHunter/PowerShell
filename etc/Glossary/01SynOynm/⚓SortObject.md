@@ -1,5 +1,10 @@
 - Sort-Object
+- `Sort-Object`
+- `SortObject`
 - SortObject
+- SortObject=바로정렬
+- SortObject=정렬
+- SortObject=정렬해버림
 - Unicode순서
 - Unicode순
 - 유니코드순서

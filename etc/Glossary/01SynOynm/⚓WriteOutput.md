@@ -1,0 +1,35 @@
+- WriteOutput
+- WriteOutput=넘김
+- WriteOutput=첨가넘김
+- WriteOutput=추가넘김
+- WriteOutput=추가넘김▶️`$_ -replace "- ", "- 00"`-`Write-Output $_`👉이럴경우-00AA-AA-이렇게같이들어감.-WriteOutput자체가-기존것에 추가해서 넘기는형태인듯.
+- WriteOutput=넘김용
+- WriteOutput=파이프라인넘김
+- WriteOutput=|넘김
+- WriteOutput=`|`넘김
+- `WriteOutput`
+- `WriteOutput`
+- WriteOutPut
+- WOP
+- WO
+- Output
+- `Write-Output`
+- Write-Output
+- Write
+- 출력
+- 화면출력
+- 콘솔출력
+- Powershell핵심철학
+- Powershell객체기반핵심철학
+- Powershell객체기반파이프라인핵심철학
+- Powershell객체기반파이프라인 핵심철학
+- Powershell 객체기반파이프라인 핵심철학
+- 객체기반파이프라인
+- 핵심철학
+- ✅파이프라인
+- ✅후속처리
+- ✅데이터전달
+- 📌비교▶️“데이터 흐름”을 이어가야 할 땐 반드시 Write-Output을 써야 하고, 단순 안내 메시지 같은 건 Write-Host를 쓰면 돼요.
+- 📌비교▶️01`WriteHost`  👉`Get-Content test.md | ForEach-Object { Write-Host $_ }   | Set-Content copy.md`-❌파일생성
+- 📌비교▶️01`WriteHost`  👉`Get-Content test.md | ForEach-Object { Write-Host $_ }   | Set-Content copy.md`-❌파일생성-데이터없음
+- 📌비교▶️02`WriteOutput`👉`Get-Content test.md | ForEach-Object { Write-Output $_ } | Set-Content copy.md`-✅파일생성

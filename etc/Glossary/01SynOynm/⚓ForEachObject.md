@@ -1,0 +1,27 @@
+- ForEach-Object
+- ForEach-Object{}
+- ForEach-Object {}
+- ForEach-Object {$_}
+- `ForEach-Object`
+- `ForEach-Object{}`
+- `ForEach-Object{}|`
+- `ForEach-Object{$_}|`
+- `ForEach-Object {}`
+- `ForEach-Object {} |`
+- `ForEach-Object {$_}`
+- `ForEach-Object {$_} |`
+- ForEachㆍObject
+- ForEachObject
+- `ForEachObject`
+- 개별오브젝트
+- 개별오브젝트-개별디렉토리
+- 개별오브젝트-개별파일
+- 개별오브젝트-개별라인
+- 개별오브젝트-개별줄라인
+- 개별오브젝트-개별줄
+- ForEachObject▶️01`GetChildItem`👉`Get-ChildItem`-`ForEach-Object`
+- ForEachObject▶️01`GetChildItem`👉`GetChildItem`-`ForEachObject`
+- ForEachObject▶️01`GetChildItem`👉GetChildItem-ForEachObject
+- ForEachObject▶️02`GetContent`👉`Get-Content`-`ForEach-Object`
+- ForEachObject▶️02`GetContent`👉`GetContent`-`ForEachObject`
+- ForEachObject▶️02`GetContent`👉GetContent-ForEachObject

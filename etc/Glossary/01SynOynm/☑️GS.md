@@ -1,0 +1,12 @@
+- ☑️GS
+- GS
+- GㆍS
+- GetㆍSet
+- GetContentㆍSetContent
+- Get-ContentㆍSet-Content
+- GetSet
+- 시간적-GetSet>>SetGet
+- 절차적-GetSet>>SetGet
+- 공간적-GetSet<<SetGet
+- 객체적-GetSet<<SetGet
+- 시간적>>공간적-GetSet>>SetGet
