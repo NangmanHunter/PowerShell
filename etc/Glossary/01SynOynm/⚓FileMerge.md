@@ -1,0 +1,24 @@
+- 파일병합기
+- 파일병합
+- 파일병합
+- 파일합산기
+- 파일합산
+- File Merger
+- FileMerger
+- FileMerge
+- `FileMerge`
+- `FileMerger`
+- FM
+- FileMerger▶️TextFileMerger
+- FileMerger▶️TxtFileMerger
+- FileMerger▶️TXTFileMerger
+- FileMerger▶️MarkDownFileMerger
+- FileMerger▶️MDFileMerger
+- FileMerger▶️PdfFileMerger
+- FileMerger▶️PDFFileMerger
+- File Combination Tool
+- 파일병합기는 영어로 File Merger 또는 File Combination Tool이라고 할 수 있습니다.
+- 📌표현▶️`FileMerge`>>`FileMerger`
+- 📌표현▶️`FileMerge`vs.`FileMerger`
+- 📌표현▶️일단-FileMerge>>FileMerger
+- 📌표현▶️일단-FileMerge>>FileMerger-아직.-er.가되지못했다.-UI적CLI적.부족.

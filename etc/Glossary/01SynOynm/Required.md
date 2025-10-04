@@ -1,0 +1,3 @@
+- <> → 필수(Required)
+- `<>`
+- 예: <System.String[]> → 반드시 값 넣어야 함

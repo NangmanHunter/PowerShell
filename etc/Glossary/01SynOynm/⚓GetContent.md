@@ -2,4 +2,17 @@
 - GetContent
 - Get-Content
 - `Get-Content`
+- `Get-Content`=✅텍스트
+- `Get-Content`=✅텍스트(UTF-8/UTF-16)
+- `Get-Content`=✅Text
+- `Get-Content`=✅Textㆍ❌Binary
+- `Get-Content`=✅Textㆍ❌Image
+- `Get-Content`=✅TextMergeㆍ❌ImageMerge
+- `Get-Content`=✅텍스트ㆍ❌바이너리
+- `Get-Content`=✅텍스트ㆍ❌이미지
+- `Get-Content`=✅텍스트병합ㆍ❌이미지병합
 - `GetContent`
+- 📌텍스트병합▶️텍스트는 그냥 이어붙이면 되고, 
+- 📌이미지병합▶️이미지 파일은 단순 이어붙이기가 의미가 없을 수 있습니다.
+PNG 같은 경우 여러 이미지를 한 개 PNG로 합치려면 포맷 구조에 맞게 재인코딩 필요 → 단순 바이너리 결합으로는 깨집니다.
+- 📌이미지병합▶️이미지/오디오/동영상 등 바이너리는 포맷에 맞는 라이브러리로 처리해야 함이 핵심입니다.
