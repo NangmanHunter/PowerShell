@@ -1,5 +1,6 @@
 - WriteOutput
 - WriteOutput=넘김
+- Write`Output`=`넘김`
 - WriteOutput=첨가넘김
 - WriteOutput=추가넘김
 - WriteOutput=추가넘김▶️`$_ -replace "- ", "- 00"`-`Write-Output $_`👉이럴경우-00AA-AA-이렇게같이들어감.-WriteOutput자체가-기존것에 추가해서 넘기는형태인듯.

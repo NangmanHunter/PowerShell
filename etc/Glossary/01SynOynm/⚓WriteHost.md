@@ -2,9 +2,14 @@
 - WriteHost=단순출력
 - WriteHost=단순출력용
 - WriteHost=출력
+- Write`Host`=`출`력
+- Write`Host`=`출력`
 - WriteHost=출력용
 - WriteHost=✅출력
 - Write-Host
+- `Write-Host`
+- `write-host`
+- write-host
 - 출력
 - 출력용
 - Write

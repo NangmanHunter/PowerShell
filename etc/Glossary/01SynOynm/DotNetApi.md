@@ -1,0 +1,12 @@
+- “.NET API”는 마이크로소프트가 만든 “프로그래밍 도구 모음집(기능 라이브러리)”이에요.
+- .NET API
+- .NETAPI
+- .NETApi
+- .NetAPI
+- .NetApi
+- `.NET API`
+- .NET (닷넷)은 Microsoft가 만든 프로그래밍 플랫폼(환경)
+- DotNETApi
+- DotNetApi
+- DotNETAPI
+- API (Application Programming Interface) 는 “프로그램이 쓸 수 있는 기능(명령)”들의 모음

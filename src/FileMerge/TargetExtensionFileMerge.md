@@ -1,6 +1,7 @@
 ## Text`FileMerge`
 ```ps1
 # ##추가
+$Extension = ".txt"
 $MergeFileName = "MergeFile.md"
 Get-ChildItem -File -Filter *.txt | Where-Object { $_.Name -ne $MergeFileName } | ForEach-Object {
     "## "+$_.Name

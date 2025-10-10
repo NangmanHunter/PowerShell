@@ -1,0 +1,30 @@
+- PowerShell
+- Powershell
+- PS
+- ps1
+- .ps1
+- .psm1
+- 파워쉘
+- MSPowerShell
+- MS PowerShell
+- MSPowershell
+- MS Powershell
+- 📌최적화▶️PowerShell vs. Python
+- 📌최적화▶️`PowerShell` vs. `Python`
+- 📌최적화▶️나에게-`PowerShell`>>`Python`
+- 📌최적화▶️경량성-`PowerShell`>>`Python`
+- 📌최적화▶️기준성-`PowerShell`>>`Python`
+- 📌최적화▶️기준성-윈도우-`PowerShell`>>`Python`
+- 📌최적화▶️기준성-Window-`PowerShell`>>`Python`
+- 📌최적화▶️바로접근성-`PowerShell`>>`Python`
+- 📌최적화▶️바로접근성-Vscode+`` Ctrl+` ``-`PowerShell`>>`Python`
+- 📌최적화▶️바로접근성-`Win+X+A`-`PowerShell`>>`Python`
+- 📌최적화▶️바로처리성-`PowerShell`>>`Python`
+- 📌최적화▶️복잡성-`PowerShell`<<`Python`
+- 📌최적화▶️많은연산성-`PowerShell`<<`Python`
+- 📌최적화▶️`PowerShell`=✅Shell
+- 📌최적화▶️`PowerShell`=✅Shell(Bash처럼)
+- 📌최적화▶️`PowerShell`=✅Shell(Bash처럼)-바로접근성-바로처리성-바로실행.
+- 📌최적화▶️`Python`=❌Shell
+- 📌최적화▶️`Python`=❌Shellㆍ✅PythonREPL
+- 📌최적화▶️`Python`=❌Shellㆍ✅PythonREPL(대화형모드)

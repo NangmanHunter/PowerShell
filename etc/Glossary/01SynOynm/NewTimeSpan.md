@@ -1,0 +1,3 @@
+- New-TimeSpan
+- `New-TimeSpan`
+- NewTimeSpan

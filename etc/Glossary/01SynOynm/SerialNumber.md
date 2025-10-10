@@ -1,0 +1,2 @@
+- SerialNumber
+- 연속숫자

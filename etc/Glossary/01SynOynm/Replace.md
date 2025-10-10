@@ -1,0 +1,6 @@
+- Replace
+- replace
+- -replace
+- `-replace`
+- `$A = $A -replace "a", "b"`
+- `$A = $A -replace "- ", ""`
