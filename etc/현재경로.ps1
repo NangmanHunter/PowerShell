@@ -1,3 +1,0 @@
-Get-Location
-
-$PWD.Path

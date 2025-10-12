@@ -23,6 +23,29 @@ ni 📄File
 ni 📄File -ItemType File
 ```
 ```ps1
+ni -Path 📄File
+```
+```ps1
+ni -Path "📄File"
+```
+```ps1
+ni -Path "📄File" -ItemType File
+```
+```ps1
+ni -Path "${Path}\📄File"
+```
+```ps1
+ni -Path "${Path}\📄File" -ItemType File
+```
+```ps1
+ni -Path "${Path}\📄File.md"
+```
+```ps1
+ni -Path "${Path}\📄File.md" -ItemType File
+```
+
+`New-Item`
+```ps1
 New-Item 📄File
 ```
 ```ps1

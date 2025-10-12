@@ -11,6 +11,8 @@
 - `write-host`
 - write-host
 - 출력
+- 출력-`Write-Host`
+- 출력=`Write-Host`
 - 출력용
 - Write
 - 디버깅용
@@ -38,3 +40,4 @@
 - 단순출력용=✅WriteHostㆍ❌WriteOutput
 - 단순출력용=❌WriteOutput
 - 단순출력용=❌WriteOutput-넘김용
+- 로그형으로 최적화=`Write-Host`
