@@ -35,11 +35,14 @@ New-Item -Path "C:\📁Directory" -ItemType Directory
 
 ## Multi`CreateDirectory`
 ```ps1
-md 📁01Directory, 📁02Directory
+md 📁01Directory 
+md 📁02Directory
+md 📁03Directory
 ```
 <details open>
     <summary></summary>
 
+`md`
 ```ps1
 md 📁01Directory, 📁02Directory
 ```
@@ -54,33 +57,26 @@ md 📁01Directory,
 ```
 ```ps1
 md 📁01Directory, 
-📁02Directory,
-📁03Directory,
-📁04Directory
-```
-```ps1
-md 📁01Directory, 
-📁02Directory,
-📁03Directory,
-📁04Directory,
-📁05Directory
-```
-```ps1
-md 📁01Directory, 
    📁02Directory,
-   📁03Directory,
-   📁04Directory,
-   📁05Directory
+   📁03Directory
 ```
 ```ps1
 md 📁01Directory 
 md 📁02Directory
 md 📁03Directory
-md 📁04Directory
-md 📁05Directory
+```
+```ps1
+md 📁01Directory;
+md 📁02Directory;
+md 📁03Directory;
+```
+```ps1
+md 📁01Directory ;
+md 📁02Directory ;
+md 📁03Directory ;
 ```
 
-
+`mkdir`
 ```ps1
 mkdir 📁01Directory, 📁02Directory
 ```
