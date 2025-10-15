@@ -44,17 +44,56 @@ md 📁01Directory, 📁02Directory
 md 📁01Directory, 📁02Directory
 ```
 ```ps1
-mkdir 📁01Directory, 📁02Directory
+md 📁01Directory, 
+📁02Directory
 ```
 ```ps1
-mkdir 📁01Directory, 
-📁02Directory
+md 📁01Directory, 
+📁02Directory,
+📁03Directory
+```
+```ps1
+md 📁01Directory, 
+📁02Directory,
+📁03Directory,
+📁04Directory
+```
+```ps1
+md 📁01Directory, 
+📁02Directory,
+📁03Directory,
+📁04Directory,
+📁05Directory
+```
+```ps1
+md 📁01Directory, 
+   📁02Directory,
+   📁03Directory,
+   📁04Directory,
+   📁05Directory
+```
+```ps1
+md 📁01Directory 
+md 📁02Directory
+md 📁03Directory
+md 📁04Directory
+md 📁05Directory
+```
+
+
+```ps1
+mkdir 📁01Directory, 📁02Directory
 ```
 ```ps1
 mkdir 📁01Directory, 
       📁02Directory
 ```
+```ps1
+mkdir 📁01Directory, 
+📁02Directory
+```
 </details>
+<br><br>
 
 
 ```
@@ -62,14 +101,22 @@ mkdir 📁01Directory,
  └📁etc
  └📁src
 ```
-- ```ps1
-  mkdir etc, src
-  ```
-- ```ps1
-  mkdir src, etc
-  ```
+```ps1
+mkdir etc, src
+```
+<details open>
+    <summary></summary>
 
-  
+```ps1
+mkdir etc, src
+```
+```ps1
+mkdir src, etc
+```
+</details>
+<br><br>
+
+
 ```
 📌.
  └📁01OverView
@@ -125,6 +172,13 @@ mkdir 📁01Directory,
    └📁02AntOnym
    └📁03HypOnym
 ```
+```ps1
+md Glossary/01SynOnym,
+   Glossary/02AntOnym,
+   Glossary/03HypOnym
+```  
+<details open>
+    <summary></summary>
 
 - ```ps1
   mkdir Glossary
@@ -144,10 +198,22 @@ mkdir 📁01Directory,
   mkdir 01SynOnym, 02AntOnym, 03HypOnym
   ```
 - ```ps1
+  mkdir Glossary; 
+  cd Glossary; 
+  mkdir 01SynOnym, 02AntOnym, 03HypOnym;
+  cd ../
+  ```
+- ```ps1
+  md Glossary/01SynOnym,
+     Glossary/02AntOnym,
+     Glossary/03HypOnym
+  ```  
+- ```ps1
   mkdir Glossary/01SynOnym,
         Glossary/02AntOnym,
         Glossary/03HypOnym
   ```
+  
 - ```ps1
   ("01SynOnym","02AntOnym","03HypOnym") | % { mkdir "Glossary/$_" }
   ```
@@ -161,18 +227,4 @@ mkdir 📁01Directory,
       New-Item -ItemType Directory -Path "Glossary/$name"
   }
   ```
-
-
-
-```
-📌.
- └📁00Glossary
-   └📁01SynOnym
-   └📁02AntOnym
-   └📁03HypOnym
-```
-```ps1
-mkdir 00Glossary/01SynOnym,
-      00Glossary/02AntOnym,
-      00Glossary/03HypOnym
-```
+</details>
