@@ -131,8 +131,8 @@ fsutil file createnew "📄File.md" 0
  └📄02File.md
 ```
 > ```ps1
-> ni 01File.md ; 
-> ni 02File.md ;
+> ni 01File.md 
+> ni 02File.md
 > ```
 <details open>
     <summary></summary>
@@ -148,6 +148,12 @@ ni 01File.md ,
 ```
 ```ps1
 ni 01File.md; ni 02File.md
+```
+
+`ni`xN
+```ps1
+ni 01File.md
+ni 02File.md
 ```
 ```ps1
 ni 01File.md; 
