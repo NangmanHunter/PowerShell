@@ -4,7 +4,6 @@
 
 
 ## Single`CreateFile`
-출력형태
 ```
 📌.
  └📄File.md
@@ -132,14 +131,42 @@ fsutil file createnew "📄File.md" 0
  └📄02File.md
 ```
 > ```ps1
-> $files = @("📄01File.md", "📄02File.md")
-> $files | ForEach-Object { New-Item -Path $_ -ItemType File }
+> ni 01File.md ; 
+> ni 02File.md ;
 > ```
 <details open>
     <summary></summary>
 
+
+`ni`
 ```ps1
-1..5 | ForEach-Object { New-Item -Path "C:\Temp\file$_.txt" -ItemType File }
+ni 01File.md , 02File.md
+```
+```ps1
+ni 01File.md , 
+02File.md
+```
+```ps1
+ni 01File.md; ni 02File.md
+```
+```ps1
+ni 01File.md; 
+ni 02File.md
+```
+```ps1
+ni 01File.md; 
+ni 02File.md;
+```
+```ps1
+ni 01File.md ; ni 02File.md
+```
+```ps1
+ni 01File.md ; 
+ni 02File.md
+```
+```ps1
+ni 01File.md ; 
+ni 02File.md ;
 ```
 
 
@@ -177,3 +204,5 @@ foreach ($file in $files) {
 }
 ```
 </details>
+
+
