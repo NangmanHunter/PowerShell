@@ -96,14 +96,14 @@ mkdir 📁01Directory,
 
 
 > [!Note]
-```
-📌.
- └📁etc
- └📁src
-```
-```ps1
-mkdir etc, src
-```
+> ```
+> 📌.
+>  └📁etc
+>  └📁src
+> ```
+> ```ps1
+> mkdir etc, src
+> ```
 <details open>
     <summary></summary>
 
