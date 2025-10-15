@@ -95,12 +95,12 @@ mkdir 📁01Directory,
 </details>
 
 
-> [!Note]
-> ```
-> 📌.
->  └📁etc
->  └📁src
-> ```
+`etc-src`
+```
+📌.
+ └📁etc
+ └📁src
+```
 > ```ps1
 > mkdir etc, src
 > ```
@@ -116,42 +116,58 @@ mkdir src, etc
 </details>
 
 
-> [!Note]
+`01OverView`
 ```
 📌.
  └📁01OverView
  └📁02Content
 ```
-- ```ps1
-  mkdir 01OverView, 02Content
-  ```
+> ```ps1
+> mkdir 01OverView, 02Content
+> ```
 
 
+`01SQL기본`
 ```
 📌.
  └📁01SQL기본
  └📁02SQL활용
  └📁03관리구문
 ```
-- ```ps1
-  mkdir 01SQL기본, 
-  02SQL활용,
-  03관리구문
-  ```
+> ```ps1
+> mkdir 01SQL기본, 
+>       02SQL활용,
+>       03관리구문
+> ```
+<details open>
+    <summary></summary>
+
+```ps1
+mkdir 01SQL기본, 
+02SQL활용,
+03관리구문
+```
+```ps1
+mkdir 01SQL기본, 
+      02SQL활용,
+      03관리구문
+```
+</details>
 
 
+`〈폴더1〉`
 ```
 📌.
  └📁〈폴더1〉
  └📁〈폴더2〉
 ```
-- ```ps1
-  mkdir 〈폴더1〉, 
-  〈폴더2〉
-  ```
-  - < ▶️ 〈   
-  - < ▶️ ＜
-
+> ```ps1
+> mkdir 〈폴더1〉, 
+> 〈폴더2〉
+> 
+> # < 🚥 〈   
+> # < 🚥 ＜
+> ```
 
 
 ## SubSingle`CreateDirectory`
@@ -160,9 +176,10 @@ mkdir src, etc
  └📁Glossary
   └📁01SynOnym
 ```
-- ```ps1
-  mkdir Glossary/01SynOnym
-  ```
+> ```ps1
+> mkdir Glossary/01SynOnym
+> ```
+
 
 ## SubMulti`CreateDirectory`
 ```
@@ -172,11 +189,11 @@ mkdir src, etc
    └📁02AntOnym
    └📁03HypOnym
 ```
-```ps1
-md Glossary/01SynOnym,
-   Glossary/02AntOnym,
-   Glossary/03HypOnym
-```  
+> ```ps1
+> md Glossary/01SynOnym,
+>    Glossary/02AntOnym,
+>    Glossary/03HypOnym
+> ```  
 <details open>
     <summary></summary>
 
