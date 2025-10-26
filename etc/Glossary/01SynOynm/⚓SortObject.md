@@ -1,5 +1,8 @@
 - Sort-Object
+- `sort-object`
 - `Sort-Object`
+- `Get-Content`-`Sort-Object`
+- `Get-Content`-`Sort-Object`-앞단에서 줄단위로 가져온것-뒷단에서 Object로 정렬.
 - `SortObject`
 - SortObject
 - SortObject=바로정렬
@@ -10,3 +13,10 @@
 - 유니코드순서
 - 유니코드순
 - 문자 전체를 앞에서부터 유니코드 순으로 비교
+- Sort
+- Order
+- 정렬
+- 정렬-광적집착ㄱㄱ.
+- `Sort-Object`-`Parameter`-`-Unique`
+- [Sort-Object_Parameter](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/sort-object#parameters)
+- [Sort-Object_파라미터](https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/sort-object#parameters)

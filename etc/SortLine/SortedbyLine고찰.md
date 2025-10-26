@@ -3,7 +3,8 @@
 ㄴ웹->오류나옴.
 ㄴpowershell->바로됨.
 
-#
+
+##
 powershell
 ㄴpowershell>>web
 ㄴpowershell>>js
@@ -18,7 +19,8 @@ powershell
 ㄴ그냥
 ㄴ너무느림.
 
-#
+
+##
 js
 ㄴsingle-thread
 interpreter방식

@@ -81,7 +81,7 @@ Alias
 >         Write-Host "Processing: $FileName"
 > 
 >         Get-Content -LiteralPath $FileName -Encoding UTF8 |
->         Sort-Object |
+>         Sort-Object -Unique |
 >         Set-Content -LiteralPath $FileName -Encoding UTF8
 >     }
 > }
@@ -145,7 +145,6 @@ Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
 # - ✅-LiteralPath
 # - 파일제목▶️✅[]
 ```
-</details>
 
 
 `.md`파일
@@ -168,16 +167,31 @@ Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
     }
 }
 ```
-```ps1
-Get-ChildItem -LiteralPath $_.FullName -File | Where-Object { $_.Extension -eq ".md" } | ForEach-Object {
-    $FileName = $_.FullName
-    Write-Host "Processing: $FileName"
 
-    Get-Content -LiteralPath $FileName -Encoding UTF8 |
-    Sort-Object |
-    Set-Content -LiteralPath $FileName -Encoding UTF8
+
+`Unique`
+```ps1
+# .md파일만
+# -Filter "*.md"
+$RootPath = "."
+
+Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
+    $_.Name -in @("01SynOnym", "02AntOnym")
+} | ForEach-Object {
+    Get-ChildItem -LiteralPath $_.FullName -File -Filter "*.md" | ForEach-Object {
+        $FileName = $_.FullName
+
+        Write-Host "Processing: $FileName"
+
+        Get-Content -LiteralPath $FileName -Encoding UTF8 |
+        Sort-Object -Unique |
+        Set-Content -LiteralPath $FileName -Encoding UTF8
+    }
 }
 ```
+</details>
+
+
 
 
 

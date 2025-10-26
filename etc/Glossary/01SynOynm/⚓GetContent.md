@@ -1,6 +1,11 @@
 - ⚓GetContent
 - GetContent
 - Get-Content
+- `get-content`
+- `get-content`-윈도우-대소문자동일
+- `get-content`-윈도우-대소문자동일취급
+- `get-content`-윈도우-대소문자동취급
+- `get-content`-윈도우-❌대소문자구분
 - `Get-Content`
 - `Get-Content`=✅텍스트
 - `Get-Content`=✅텍스트(UTF-8/UTF-16)

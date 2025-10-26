@@ -1,0 +1,10 @@
+- SortObjectUnique
+- SortObject Unique
+- Sort-Object -Unique
+- `Sort-Object -Unique`
+- 정렬하며 중복제거
+- 중복제거정렬
+- 유일정렬
+- 유일화정렬
+- 유일성-제공해줌.-바로싹사용ㄱㄱ.
+- 없으면만들어야되는데.-지원해주면 그것더활용ㄱㄱ.-학습은 나중임.-시간나면ㄱㄱ.-활용>>학습.-익힘>>학습

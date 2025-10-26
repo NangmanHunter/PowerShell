@@ -1,9 +1,32 @@
 - SortLine
+- Sort
+- LineSort
+- `Sort`
+- SortObject
+- SortObject-Line
+- SortObject-FileContentLine
+- SortObject-FileContent-Line
 - `SortLine`
 - `SortLine`=항상하기전에 .git찍고진행.-.png처럼 싹망가지는경우있음.-복원대비위해 먼저찍고선행ㄱㄱ.
 - `SortLine`=.git찍기-SortLine돌리기-.git찍기
 - `SortLine`=`.git`찍기-SortLine돌리기-.git찍기
 - SortLineFileContent
+- SortLine`FileContent`
+- SortFileContent
+- SortFileContent=SortLineFileContent
+- `SortFileContent`
+- Sort`FileContent`
 - SortLineDirectoryFileContent
 - SortLineDirectory
 - 줄단위정렬
+- `Get-Content`-`Sort-Object`
+- Sorted by Line
+- Sorted By Line
+- SortedBy Line
+- SortedByLine
+- Sortedby Line
+- SortedbyLine
+- Sorted by line
+- Sorting Line by
+- 줄단위정렬하기
+- 파일내용-줄단위정렬
