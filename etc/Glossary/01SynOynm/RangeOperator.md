@@ -1,0 +1,4 @@
+- RangeOperator
+- `..`
+- .. 는 PowerShell의 범위(range) 연산자, 즉 “A부터 B까지 숫자 나열”을 만드는 기호입니다.
+- `$con=1..25 ; Write-Host $con`

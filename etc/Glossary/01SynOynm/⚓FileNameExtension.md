@@ -1,0 +1,33 @@
+- FileExtension
+- `FileExtension`
+- Extension
+- `Extension`
+- FileNameExtension
+- FileNameExtension-탑다운형식
+- FileNameExtension-탑다운형식-추구형식
+- FileNameExtension-탑다운-추구
+- `FileNameExtension`
+- 파일확장자
+- 확장자
+- Name-Extension
+- Name_Extension
+- Name_NameExtension
+- File_Name_Extension
+- File_Extension
+- File_FileExtension
+- File_FileName_FileNameExtension
+- https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%ED%99%95%EC%9E%A5%EC%9E%90
+- 파일 확장자(영어: filename extension)는 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분이다. 간단히 확장자라고도 한다.
+- filename extension
+- 파일이름확장자
+- 파일명확장자
+- https://en.wikipedia.org/wiki/Filename_extension
+- A filename extension, file name extension or file extension is a suffix to the name of a computer file (for example, .txt, .mp3, .exe) that indicates a characteristic of the file contents or its intended use.
+- file name extension
+- file extension
+- 📌표현▶️경제성-FileExtension>>FileNameExtension
+- 📌표현▶️축약성-FileExtension>>FileNameExtension
+- 📌표현▶️명확성-FileExtension<<FileNameExtension
+- 📌표현▶️적확성-FileExtension<<FileNameExtension
+- 📌표현▶️정확성-FileExtension<<FileNameExtension
+- 📌표현▶️관용성-FileExtension<<FileNameExtension

@@ -1,0 +1,44 @@
+- filename은 파일이름 전체(확장자 포함) 을 가리킬 수도 있고,
+- “확장자를 제외한 순수 이름 부분” 을 가리킬 수도 있습니다.
+- 즉, “filename”이라는 단어 자체는 문맥에 따라 달라요.
+- 즉, filename = name + extension 인 경우가 일반적이지만, 문맥상 “파일명만(확장자 제외)” 의미로 쓰일 수도 있습니다.
+- FileName=통상-전체
+- FileName=결론-맥락에따라다르다.
+- FileName=결론-쓰기나름이다.-정하자ㄱㄱ.
+- FileName=결론-추가형지향.-교환형지양.
+- FileName=결론-추가형지향.-생략형지양.
+- FileName=결론-추가형지향.-생략형지양.-논리점프지양.
+- FileName=결론-추가형지향.-생략형지양.-단계점프지양.
+- FileName=결론-추가형지향.
+- FileName=결론-추가형지향.-싹추가형ㄱㄱ.
+- FileName=결론-추가형지향.-싹추가형ㄱㄱ.-수식연산자전개마냥ㄱㄱ.
+- FileName=결론-그러나-재정의형-정의형.-지점형.-구상형.-새로이 고유명사로서진행ㄱㄱ.
+- FileName=결론-그러나-최적화위해 구상지점화ㄱㄱ.
+- FileName=결론-그러나-최적화위해 교환형지향.
+- FileName=결론-그러나-최적화위해 교환형시작지향.
+- FileName=결론-그러나-최적화위해 교환형시작화지향.
+- FileName
+- File
+- FileName=통상-전체확장자포함
+- FileName=통상-확장자포함
+- FileName=간혹-확장자제외
+- filename
+- FileName용례▶️Windows 탐색기👉확장자 포함 전체 이름 (report.txt)
+- FileName용례▶️Linux shell👉확장자 포함 (main.c)
+- FileName용례▶️Python os.path.splitext(filename)👉확장자를 분리함 → ("report", ".txt")
+- FileName용례▶️Java File.getName()	👉경로 제외 전체 (report.txt)
+- 개요01▶️파일경로(path)
+- 개요02▶️ ├─ 디렉터리(directory)
+- 개요03▶️ └─ 파일이름(filename)
+- 개요04▶️       ├─ 이름(name)
+- 개요05▶️       └─ 확장자(extension)
+- filename = 보통 “이름 + 확장자” 전체
+- name = “확장자 제외한 이름 부분”
+- extension = “형식을 나타내는 점(.) 뒤의 문자열”
+- filename = name + '.' + extension
+- 📌표현▶️경제성-File>>FileName
+- 📌표현▶️정확성-File<<FileName
+- 📌표현▶️적확성-File<<FileName
+- 📌표현▶️비중복성-File<<FileName
+- 📌표현▶️유일성-File<<FileName
+- 📌표현▶️규격성-File<<FileName-FileNameExtension
