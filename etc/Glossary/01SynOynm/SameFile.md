@@ -1,0 +1,10 @@
+- SameFile
+- InternalFile
+- 동일파일
+- 당해파일
+- 해당파일
+- 내부파일
+- 그파일
+- SameOther▶️통상적-SameOther>>OtherSame
+- SameOther▶️개발작업적-SameOther<<OtherSame
+- SameOther▶️개발작업적-SameOther<<OtherSame-외부부터.-백업형식으로.-원본비해치는형식으로.-원본보존형식부터.

@@ -1,0 +1,5 @@
+- CaseSensitive↔️CaseInSensivite
+- CaseSensitive↔️CaseInsensivite
+- `Case`Sensitive↔️`Case`Insensivite
+- Case`Sensitive`↔️Case`Insensivite`
+- CaseSensitive↔️Case`In`Sensivite

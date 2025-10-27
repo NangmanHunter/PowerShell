@@ -1,0 +1,20 @@
+- CaseInSensitvie
+- Case`InSensitvie`
+- `CaseInSensitvie`
+- Case`In`Sensitvie
+- CaseInsensitvie
+- `CaseInsensitvie`
+- CaseNonsensitvie
+- CaseNonSensitvie
+- 대소문자비구분
+- ❌대소문자구분
+- SQL (기본 키워드) → case-insensitive
+- Windows → 보통 case-insensitive
+- 정규 표현식 / 검색 옵션: /i 옵션 → ignore case (대소문자 무시)
+- 정규 표현식 / 검색 옵션:  `/hello/i` 👉 matches "Hello", "HELLO", etc.
+- 개발 쪽에서는 “대소문자를 구분(case-sensitive)” / “대소문자를 구분하지 않음(case-insensitive)” 이 두 표현이 표준 용어예요.
+- PowerShell=CaseInsensitive
+- PowerShell=CaseInSensitive
+- PowerShell=❌대소문자구분
+- PowerShell=❌대소문자구분-편의상-✅소문자작성
+- PowerShell=❌대소문자구분-편의상-✅소문자타이핑

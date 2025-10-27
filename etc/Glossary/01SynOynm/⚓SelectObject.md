@@ -1,0 +1,7 @@
+- ⚓SelectObject
+- SelectObject
+- Select-Object
+- `Select-Object`
+- select-object
+- `select-object`
+- https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/select-object?view=powershell-5.1

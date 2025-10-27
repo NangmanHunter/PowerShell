@@ -1,0 +1,4 @@
+- CaseSensitive
+- 대소문자구분
+- Java, C, JavaScript → case-sensitive
+- Linux → case-sensitive
