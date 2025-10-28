@@ -1,0 +1,34 @@
+- Profile
+- 프로파일(profile)에 추가
+- PowerShell에는 시작할 때 자동으로 로드되는 스크립트 파일이 있습니다.
+- `$PROFILE`
+- `$profile`
+- `$Profile`
+- `$PROFILE`👉`C:\Users\사용자이름\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+- ✅`.psm1`▶️간단한건-Profile
+- ✅`.psm1`▶️복잡한건-Profile<<Psm1
+- ✅`.psm1`▶️복잡한건-Profile<<.psm1
+- ✅`.psm1`▶️복잡한건-Profile<<`.psm1`
+- ✅`.psm1`▶️기타방식-`.\SortLine.ps1 -Name test.md`-환경변수설정.
+- ✅`.psm1`▶️기타방식-`.\SortLine.ps1 -Name test.md`-이건 함수이름대신-파일이름자체가 함수로서진행.-❌별도함수선언-✅함수내부내용만.
+- ✅`.psm1`▶️기타방식-“함수 내부만 .ps1에 넣어서 param 받는 방식”은 개인용·간단 자동화용으로는 OK
+- ✅`.psm1`▶️기타방식-❌ 하지만 재사용성·공유성 측면에서는 모듈이나 프로파일 방식이 권장
+- ✅`.psm1`▶️기타방식-장점: 간단, 실행 쉬움
+- ✅`.psm1`▶️기타방식-단점: 재사용성이 낮음, 다른 스크립트에서 호출하기 불편
+- ✅`.psm1`▶️기타방식-Ex.01👉`# SortLine.ps1`
+- ✅`.psm1`▶️기타방식-Ex.02👉`param([string]$Name)`
+- ✅`.psm1`▶️기타방식-Ex.03👉`Get-Content $Name | Sort-Object | Set-Content $Name`
+- ✅`.psm1`▶️코드간단성-`.ps1`>>`profile`>>`.psm1`
+- ✅`.psm1`▶️재사용성-`.ps1`<<`profile`<<`.psm1`
+- ✅`.psm1`▶️최종성-`.ps1`<<`profile`<<`.psm1`
+- ✅`.psm1`▶️관리성-`.ps1`<<`profile`<<`.psm1`
+- ✅`.psm1`▶️관리성-`.ps1`<<<<`profile`<<`.psm1`
+- ✅`.psm1`▶️관리성-`profile`ㆍ`.psm1`-이정도선까지-딱PowerShell단위에서 처리할수있는 딱영역적 여기까지.-최적성싹뽑아내짐.-영역성 확보로.-명확영역성통한 최적성확보ㄱㄱ.
+- ✅`.psm1`▶️관리성-`.ps1`-환경변수-여기까지가서 관리하기 비최적.-너무많이감.-손많이감.-영역많이감.-너무OS적까지감.-비최적.
+- ✅`.psm1`▶️최적성-`.ps1`<<`profile`<<`.psm1`
+- ✅`.psm1`▶️최적성-`.psm1`>>`profile`>>`.ps1`
+- ✅`.psm1`▶️최적성-`.psm1`>>`profile`
+- ✅`.psm1`▶️최적성-`.psm1`+`profile`>>함수자체+`profile`
+- ✅`.psm1`▶️최적성-`.psm1`ㆍ`profile`
+- ✅`.psm1`▶️`.psm1`+`$profile`
+- ✅`.psm1`▶️`.psm1`+`$profile`-어차피 전역형태로 설정하려면 profile거쳐야함.ㄱㄱ.

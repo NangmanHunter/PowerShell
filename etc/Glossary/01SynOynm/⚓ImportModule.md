@@ -1,0 +1,12 @@
+- ⚓ImportModule
+- ImportModule
+- Import-Module
+- `Import-Module`
+- import-module
+- `import-module`
+- [MS_ImportModule](https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/import-module?view=powershell-5.1&WT.mc_id=ps-gethelp)
+- Import-Module 모듈을 현재 세션으로만 가져옵니다. 모듈을 모든 새 세션으로 가져오려면 PowerShell 프로필에 Import-Module 명령을 추가합니다.
+- 01현재세션=`Import-Module`
+- 01단속세션=`Import-Module`
+- 02영속세션=`Import-Module`+`$PROFILE`
+- 02영구세션=`Import-Module`+`$PROFILE`

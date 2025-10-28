@@ -1,5 +1,6 @@
 - GetDate
 - Get-Date
 - `Get-Date`
+- `get-date`
 - PowerShell의 Get-Date는 단순히 “윈도우 시스템의 현재 시간”을 가져오는 .NET 기반 명령(cmdlet)
 - “윈도우의 현재 시간”을 PowerShell이 .NET API를 통해 가져오는 거예요

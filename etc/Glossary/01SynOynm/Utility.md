@@ -1,0 +1,13 @@
+- Utility
+- MyUtility
+- CustomUtility
+- MyUtil
+- Util
+- Utils
+- Utility-관용어로서 상당좋은듯.
+- Utility-당해어휘활용ㄱㄱ.
+- `Utility`
+- Utility=PowerShell-Class명-일부.
+- 도구
+- utility = “도구, 유틸리티, 편의 기능”
+- 개발에서 utility = “반복적으로 쓰이는 편의 도구나 함수”

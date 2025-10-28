@@ -1,9 +1,0 @@
-- Recurse
-- Recursive
-- 재귀
-- 재귀하다
-- 재귀적으로
-- -Recure
-- `-Recure`
-- `-Recure`▶️디렉토리 안의 모든 하위 파일/폴더까지 삭제
-- -Recure▶️디렉토리 안의 모든 하위 파일/폴더까지 삭제

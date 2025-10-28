@@ -9,6 +9,7 @@
 - MS PowerShell
 - MSPowershell
 - MS Powershell
+- 실행 가능한 스크립트 (하나의 작업 단위)
 - 📌최적화▶️PowerShell vs. Python
 - 📌최적화▶️`PowerShell` vs. `Python`
 - 📌최적화▶️나에게-`PowerShell`>>`Python`
@@ -28,3 +29,13 @@
 - 📌최적화▶️`Python`=❌Shell
 - 📌최적화▶️`Python`=❌Shellㆍ✅PythonREPL
 - 📌최적화▶️`Python`=❌Shellㆍ✅PythonREPL(대화형모드)
+- PowerShell Script
+- PowerShellScript
+- PowerShell
+- PowershellScript
+- PS
+- PS1
+- ps
+- ps1
+- .ps1
+- `.ps1`

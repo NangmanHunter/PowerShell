@@ -1,6 +1,7 @@
 - SortLine
 - Sort
 - LineSort
+- `LineSort`
 - `Sort`
 - SortObject
 - SortObject-Line
@@ -30,3 +31,14 @@
 - Sorting Line by
 - 줄단위정렬하기
 - 파일내용-줄단위정렬
+- Sort는 PowerShell 내장 cmdlet이므로 사용자 정의 함수에서 쓰면 충돌 가능 → 다른 동사 추천
+- `Sort-Line`<<`SortLine`
+- `SortLine`>>`Sort-Line`
+- ✅`SortLine`>>❌`Sort-Line`
+- ✅`SortLine`>>❌`Sort-Line`-경고나옴.-혼선으로잡아버림.-실제돌아가나 코드가독성위해 cmdlet하고 회피ㄱㄱ.-회피지향ㄱㄱ.
+- 후보표현-`Order-Line`
+- 후보표현-`Arrange-Line`
+- ❌ 지금처럼 Sort-Line 같은 이름은 경고 발생
+- ✅ 공식 권장 동사(Get, Set, Add, Remove, New 등) 사용 → 경고 제거, 코드 일관성 확보
+- ⚠️ 단, 작은 개인 스크립트라면 기능상 문제는 없지만 팀/배포 환경에서는 바꾸는 게 좋음
+- 최대한혼선지양ㄱㄱ.

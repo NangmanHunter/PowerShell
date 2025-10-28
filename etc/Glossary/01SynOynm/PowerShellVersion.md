@@ -1,0 +1,5 @@
+- PowerShellVersion
+- PowerShellVersionCheck
+- PowerShellVersion확인
+- 버전확인
+- `$PSVersionTable.PSVersion`

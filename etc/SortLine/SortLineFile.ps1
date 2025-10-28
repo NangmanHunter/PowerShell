@@ -1,4 +1,4 @@
-function Sort-Line{
+function SortLine{
     param(
         [string]$Name
     )
@@ -7,9 +7,13 @@ function Sort-Line{
     Set-Content $Name -Encoding UTF8
 }
 
-Sort-Line -Name test.md
+SortLine -Name test.md
 
 
 <#
-
+SortLine
+- ✅SortLine
+- ❌Sort-Line
+- 경고뜸.
+- 혼선지양
 #>

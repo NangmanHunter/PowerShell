@@ -10,9 +10,9 @@ Get-Command | Select-Object -Property Name, CommandType
 [System.Enum]::GetNames([System.Management.Automation.CommandTypes])
 
 
-#
+##
 Get-Command -CommandType Cmdlet
-#
+##
 Get-Command Get-ChildItem
 
 
@@ -43,18 +43,20 @@ Get-Help Get-Process
 
 
 
-#
+##
 Get-Module -ListAvailable
-#
+
+##
 $env:PSModulePath
 ㄴ모듈경로
 
 
 
 
-# CommonParameter
+## CommonParameter
 - https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5
 - https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-7.5
+
 
 Get-Help Out-File -Full
 

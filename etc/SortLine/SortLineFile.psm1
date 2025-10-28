@@ -1,4 +1,4 @@
-function Sort-Line{
+function SortLine{
     param(
         [string]$Name
     )

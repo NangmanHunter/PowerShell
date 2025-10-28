@@ -1,0 +1,25 @@
+- PowerShellModule
+- PSM
+- PSM1
+- psm1
+- .psm1
+- `.psm1`
+- Module
+- MyModule
+- MyUtil
+- MyUtils
+- MyUtility
+- 모듈
+- PowerShell Script Module
+- PowerShell ScriptModule
+- PowerShellScriptModule
+- 여러 함수나 변수 등을 묶은 “모듈” 파일
+- 표준구조▶️PowerShell 모듈은 “모듈 폴더 구조”를 인식해야 자동 로드됩니다.
+- 표준구조▶️Documents\PowerShell\Modules\📁Test\📄Test.psm1
+- 표준구조▶️Documents\PowerShell\Modules
+- 표준구조▶️C:\Users\<사용자이름>\Documents\PowerShell\Modules\Test\Test.psm1
+- 표준구조▶️C:\Users\<사용자이름>\Documents\PowerShell\Modules
+- 표준구조▶️`C:\Users\djwlf\Documents\WindowsPowerShell\Modules`
+- 표준구조▶️`Documents\PowerShell\Modules`
+- 표준구조▶️`Documents\PowerShell\Modules`-해당경로-모듈규칙대로놓으면.-자동인식
+- 표준구조▶️편하긴하다.-별도로 `$profile`에 안넣어줘도 바로인식됨.

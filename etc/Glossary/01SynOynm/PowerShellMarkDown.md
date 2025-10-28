@@ -1,0 +1,9 @@
+- ` ```ps1 `
+- ` ```ps `
+- ` ```Powershell `
+- ` ```PowerShell `
+- ` ```powershell `
+- PowerShellCodeBlockForm
+- PowerShellCodeBlockMarkDownForm
+- PowerShellCodeBlockMarkDown
+- MarkDown-CodeBlock-PowerShell

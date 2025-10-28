@@ -1,0 +1,14 @@
+- Recurse
+- `Recurse`
+- Recursive
+- 재귀
+- 재귀하다
+- 재귀적으로
+- -Recure
+- `-Recure`
+- `-Recure`▶️디렉토리 안의 모든 하위 파일/폴더까지 삭제
+- -Recure▶️디렉토리 안의 모든 하위 파일/폴더까지 삭제
+- 📌표현▶️Recurse>>Recursive
+- 📌표현▶️PowerShell-Recurse>>Recursive
+- 📌표현▶️경제성-Recurse>>Recursive
+- 📌표현▶️자연스러움-Recurse<<Recursive

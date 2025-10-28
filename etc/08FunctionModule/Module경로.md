@@ -9,13 +9,17 @@
 Import-Module MyCoolModule
 ```
 
+
 이게 되려면 `MyCoolModule.psm1`이나 같은 이름의 폴더 안에 모듈이 있어야 하고,
 그 폴더가 **PowerShell 모듈 경로**에 포함돼야 합니다.
 
 ### 📍 확인:
-```powershell
+```ps1
 $env:PSModulePath -split ';'
 ```
+
+
+
 
 ### 📍 예시 구조:
 ```
@@ -27,7 +31,7 @@ C:\Users\YourName\Documents\WindowsPowerShell\Modules\
 
 이렇게 하면 `Import-Module MyCoolModule`만으로 끝!
 
----
+
 
 ## ✅ 2. **상대 경로로 불러오기**
 스크립트와 같은 폴더일 경우:
@@ -52,7 +56,11 @@ Import-Module "C:\Users\YourName\Documents\PowerShell\Modules\MyModule.psm1"
 
 이건 한번 쓰고 잊을 땐 괜찮은데, 유지보수나 공유엔 비추천.
 
----
+
+
+
+
+
 
 ## 🛠 추천 팁
 모듈 폴더 하나 만들어서 `$env:PSModulePath`에 등록해두면 편해요:
@@ -65,7 +73,3 @@ $env:PSModulePath += ";D:\MyModules"
 그다음 `D:\MyModules\MyModule\MyModule.psm1` 구조로 넣어두면  
 `Import-Module MyModule` 만으로 OK!
 
----
-
-필요하면 모듈 구조 템플릿이나 자동 등록 스크립트도 도와줄게요!  
-어떤 스타일로 작업할지 알려줄래요?
