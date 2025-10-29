@@ -1,4 +1,7 @@
 - Directory
+- 📁Directory
+- 📁Folder
+- `Directory`
 - Directory=Folder
 - Directory-Folder
 - Directory-FolderDirectory

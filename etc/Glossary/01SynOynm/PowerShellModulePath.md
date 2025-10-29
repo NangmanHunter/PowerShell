@@ -1,0 +1,55 @@
+- PowerShellModulePath
+- `PowerShellModulePath`
+- ModulePath
+- Standard Module Path
+- Standard PowerShell Module Path
+- Standard PowerShellModulePath
+- Standard ModulePath
+- StandardModulePath
+- StandardPowerShellModulePath
+- StandardPowerShellModulePath▶️
+- StandardPath
+- Module Search Path
+- PowerShell이 모듈을 찾을 때 참조하는 기본 경로들을 의미합니다.
+- 예: $env:PSModulePath에 설정된 경로들
+- Standard Module Layout
+- Standard Module Structure
+- StandardModuleStructure
+- StandardStructure
+- Standard
+- 표준경로
+- 표준구조
+- 표준방식- PSModulePath
+- 표준폴더
+- 표준디렉토리
+- StandardModulePath
+- StandardPSModulePath
+- StandardPowerShellModulePath
+- 표준구조▶️PowerShell 모듈은 “모듈 폴더 구조”를 인식해야 자동 로드됩니다.
+- 표준구조▶️Documents\PowerShell\Modules\📁Test\📄Test.psm1
+- 표준구조▶️`Documents\PowerShell\Modules\📁Test\📄Test.psm1`
+- 표준구조▶️`Documents\PowerShell\Modules`+`📁Test\📄Test.psm1`
+- 표준구조=`Documents\PowerShell\Modules`+`📁Test\📄Test.psm1`
+- 표준구조=ModulePath+ModuleFolder
+- 표준구조=ModulePath+ModuleDirecotry
+- 표준구조=ModuleBasePath+ModuleDirecotry
+- Module=ModuleBasePath+ModuleDirecotry
+- Module=ModulePath+ModuleDirecotry
+- 표준구조▶️Documents\PowerShell\Modules
+- PowerShellModulePathStructure
+- ModulePathStructure
+- PowerShellModuleStructure
+- ModuleStructure
+- ModultePath-Structure
+- 표준구조▶️C:\Users\<사용자이름>\Documents\PowerShell\Modules\Test\Test.psm1
+- 표준구조▶️`C:\Users\<사용자이름>\Documents\PowerShell\Modules`+`Test\Test.psm1`
+- 표준구조▶️`C:\Users\<사용자이름>\Documents\PowerShell\Modules`+`📁Test\📄Test.psm1`
+- 표준구조▶️`📁C:\Users\<사용자이름>\Documents\PowerShell\Modules`+`📁Test\📄Test.psm1`
+- 표준구조▶️C:\Users\<사용자이름>\Documents\PowerShell\Modules
+- 표준구조▶️`C:\Users\djwlf\Documents\WindowsPowerShell\Modules`
+- 표준구조▶️`Documents\PowerShell\Modules`
+- 표준구조▶️`Documents\PowerShell\Modules`-해당경로-모듈규칙대로놓으면.-자동인식
+- 표준구조▶️편하긴하다.-별도로 `$profile`에 안넣어줘도 바로인식됨.
+- module base path
+- module directory
+- module root path

@@ -1,0 +1,23 @@
+- PowerShellModuleDirecotry
+- ModuleDirecotry
+- Module folder
+- module folder and manifest
+- module subfolder / module contents
+- 개발에서 manifest는 단순 번역하면 “명세서”, “설명서”, “리소스 목록” 같은 뜻이에요.
+- `.psm1`👉`00/00.psm1` ⭕
+- `.psm1`👉`00/11.psm1` ❌
+- PowerShellModulePath
+- PowerShellModuleDirecotry
+- PowerShellModuleDirecotryPath
+- PowerShellModulePathDirecotry
+- PowerShellModulePathDirecotryFile
+- PowerShellModulePath▶️✅C:\...\🌏AA\📌BB\📌BB.psm1
+- PowerShellModulePath▶️✅C:\...\🌏BB\📌AA\📌AA.psm1
+- PowerShellModulePath▶️✅C:\...\📁AA\📁BB\📄BB.psm1
+- PowerShellModulePath▶️✅C:\...\📁BB\📁AA\📄AA.psm1
+- PowerShellModulePath▶️✅C:\...\📁AA\📁00\📄00.psm1
+- PowerShellModulePath▶️❌C:\...\📁AA\📄BB.psm1
+- PowerShellModulePath▶️❌C:\...\📁AA\📁BB\📄CC.psm1
+- PowerShellModulePath▶️❌C:\...\📁AA\📁CC\📄BB.psm1
+- PowerShellModulePath▶️❌C:\...\📁CC\📁BB\📄AA.psm1
+- PowerShellModulePath▶️❌C:\...\📁AA\📁00\📄11.psm1

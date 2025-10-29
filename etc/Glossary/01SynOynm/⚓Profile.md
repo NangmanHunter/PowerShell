@@ -1,10 +1,17 @@
 - Profile
+- PowerShellProfile
 - 프로파일(profile)에 추가
 - PowerShell에는 시작할 때 자동으로 로드되는 스크립트 파일이 있습니다.
 - `$PROFILE`
 - `$profile`
 - `$Profile`
-- `$PROFILE`👉`C:\Users\사용자이름\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+- `$PROFILE`👉❌`C:\Users\사용자이름\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+- `$PROFILE`👉✅`C:\Users\사용자이름\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+- <C:\Users\djwlf\Documents\PowerShell\Microsoft.PowerShell_profile.ps1>
+- <file:\\C:\Users\djwlf\Documents>
+- <file:\\C:\Users\djwlf\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1>
+- ✅<file:\\C:\Users\djwlf\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1>
+- ❌<file://C:/Users/djwlf/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1>
 - ✅`.psm1`▶️간단한건-Profile
 - ✅`.psm1`▶️복잡한건-Profile<<Psm1
 - ✅`.psm1`▶️복잡한건-Profile<<.psm1

@@ -1,0 +1,5 @@
+- EnvireonmentVariablePath
+- `$env:Path`
+- $env:Path
+- environment variable Path
+- 환경변수경로

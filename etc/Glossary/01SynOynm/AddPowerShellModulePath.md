@@ -1,0 +1,24 @@
+- “Add a path to the PSModulePath”
+- “Extend the module path”
+- “Register a custom module path”
+- “Configure the module search path”
+- “Set PSModulePath”
+- Add (or extend) the PSModulePath
+- AddPSModulePath
+- AddPowerShellModulePath
+- AddPathToPowerShellModulePath
+- AppendPowerShellModulePath
+- PowerShellModulePathAppend
+- PowerShellModulePathAdd
+- ExtendPSModulePath
+- ExtendPowerShellModulePath
+- ModulePath-Register
+- RegisterPowerShellModulePath
+- RegisterPSModulePath
+- “Add a path to the PSModulePath”-가장 직접적이고 공식 문서에서도 쓰임
+- PowerShellModulePath에 경로추가한다
+- PowerShellModulePath에 경로추가
+- PowerShellModulePath 경로추가
+- PowerShellModulePath에경로추가
+- PowerShellModulePath경로추가
+- PowerShellModulePath에 추가한다
