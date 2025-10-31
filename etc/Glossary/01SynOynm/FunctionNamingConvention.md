@@ -1,0 +1,13 @@
+- FunctionNamingConvention
+- PowerShell은 Verb-Noun (동사-명사) 형식의 이름 규칙을 공식적으로 권장합니다.
+- 예: Get-Item, Set-Location, Start-Service
+- 이때 각 단어의 첫 글자를 대문자로 하는 PascalCase가 기본 표기 규칙입니다.
+- 이렇게 해야 기존 cmdlet 스타일과 일관성이 유지되고, 자동 완성이나 문서화에도 유리합니다.
+- PowerShell에서는 함수 이름을 지을 때 “대문자로 시작하는 단어형(PascalCase)”가 권장 표준 스타일입니다.
+- 즉, 함수명은 대문자로 시작하는 게 맞아요.
+- PowerShell=`Verb-Noun`
+- PowerShell=`동사-명사`
+- 공식스타일요약(Microsoft규약)▶️형태　　👉Verb-Noun🚥Get-File, Start-Server
+- 공식스타일요약(Microsoft규약)▶️대소문자👉PascalCase (각 단어 첫 글자 대문자)🚥Get-Data, Write-Log
+- 공식스타일요약(Microsoft규약)▶️동사　　👉PowerShell 예약 동사 중 하나 사용 권장🚥Get, Set, Add, Remove, Test, Convert, ...
+- 공식스타일요약(Microsoft규약)▶️명사　　👉대문자 시작, 복수형은 피함🚥Item, UserInfo, Config

@@ -13,6 +13,7 @@
 
 ---
 
+
 ### 2. **명령 실행 (Cmdlet / Alias)**
 
 PowerShell 자체가 **명령 기반**이니까, 사실상 "Run"은 명령 실행이에요.
@@ -33,7 +34,6 @@ ls   # alias
 iex 'Write-Host "Hello World"'
 ```
 
----
 
 ### 4. **스크립트 블록 실행**
 코드 블록을 변수에 담고 실행할 수도 있어요.
@@ -41,5 +41,3 @@ iex 'Write-Host "Hello World"'
 $code = { Get-Date }
 & $code
 ```
-
-

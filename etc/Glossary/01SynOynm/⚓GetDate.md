@@ -4,3 +4,4 @@
 - `get-date`
 - PowerShell의 Get-Date는 단순히 “윈도우 시스템의 현재 시간”을 가져오는 .NET 기반 명령(cmdlet)
 - “윈도우의 현재 시간”을 PowerShell이 .NET API를 통해 가져오는 거예요
+- [MicroSoft_GetDate](https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-date?view=powershell-5.1&WT.mc_id=ps-gethelp#-day)

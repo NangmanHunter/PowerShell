@@ -2,8 +2,8 @@
 - ModuleDirecotry
 - Module folder
 - module folder and manifest
+- module folder and matadata
 - module subfolder / module contents
-- 개발에서 manifest는 단순 번역하면 “명세서”, “설명서”, “리소스 목록” 같은 뜻이에요.
 - `.psm1`👉`00/00.psm1` ⭕
 - `.psm1`👉`00/11.psm1` ❌
 - PowerShellModulePath
