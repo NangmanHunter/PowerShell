@@ -31,6 +31,7 @@ NewLineAppend
 "`n# 📌Heading" | Out-File 📄File.md -Append
 ```
 
+
 ## MutliLine`ContentCreateFile`
 ```
 @"
