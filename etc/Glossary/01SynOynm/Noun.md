@@ -1,0 +1,47 @@
+- Noun
+- 동사(Verb) 는 PowerShell에 공식 예약 목록이 있습니다. (예: Get, Set, Remove, Start 등)
+- 반면 명사(Noun) 는 사용자가 자유롭게 정의합니다. 다만 일관성과 명확성이 중요하죠.
+- Noun 중복 방지 (Name Conflict)
+- PowerShell은 함수 이름 충돌을 피하기 위해, “명사 기반으로 그룹화”를 합니다.
+- 예를 들어: Get-Process
+- 예를 들어: Stop-Process
+- 이런 식으로 명사 Process를 공유하는 cmdlet들은 같은 범주로 묶입니다.
+- 따라서 같은 명사로 통일하면 직관적이고 확장하기 쉽습니다.
+- 명사중심=객체지향적
+- 명사중심=객체지향
+- Noun-VerbNoun
+- Noun-`Verb-`Noun
+- Noun-`Verb-Noun`
+- Noun-Verb
+- 권장명사패턴(비공식베스트프랙티스)▶️파일/폴더	File, Item, Path, Directory	🚥Get-File, Remove-Item
+- 권장명사패턴(비공식베스트프랙티스)▶️네트워크	Connection, IP, Host	🚥Test-Connection, Get-HostIP
+- 권장명사패턴(비공식베스트프랙티스)▶️사용자	User, Account, Credential	🚥Add-User, Get-AccountInfo
+- 권장명사패턴(비공식베스트프랙티스)▶️설정/환경	Config, Setting, Option	🚥Set-Config, Get-Setting
+- 권장명사패턴(비공식베스트프랙티스)▶️서비스/프로세스	Service, Process, Task	🚥Start-Service, Stop-Process
+- PowerShell에서 Verb는 공식 목록이 있지만, Noun은 사용자가 자유롭게 정하되 다음 원칙을 지키는 게 권장입니다:
+- PascalCase 사용
+- 단수형 사용
+- 구체적이고 의미 명확하게
+- 일관된 명사 체계 유지
+- 실제 묶이는 기준은 Noun
+- PowerShell은 “명사(Noun)” 중심으로 묶입니다.
+- 표기-NounVerb<<VerbNoun
+- 실질-NounVerb>>VerbNoun
+- 01명사중심▶️Noun중심 (PowerShell 공식 방식)	“대상별로 분류”	*-Process, *-Service, *-Item	같은 Noun을 공유하는 Cmdlet 묶음
+- 02동사중심▶️Verb중심	“동작별로 분류”	Get-, Set-, Remove-*	각기 다른 Noun에 대해 비슷한 일을 함
+- PowerShell은 “객체지향 셸”이에요.
+- 즉, 명령어가 처리하는 “객체(대상)” 중심으로 사고합니다.
+- 객체(Noun)에 대해 동작(Verb)을 수행한다. → 그래서 대상(Noun) 이 중심.
+- PowerShell은 표기상으로는 Verb-Noun이지만, 개념적으로는 “명사 중심(Noun-centric)” 구조로 묶인다.
+- 구조00▶️실제 Microsoft 공식 문서 구조도 Noun 중심
+- 구조00▶️예를 들어 Microsoft Docs의 cmdlet 문서 구조를 보면 이렇게 되어 있습니다:
+- 구조01▶️Process Cmdlets
+- 구조02▶️  ├─ Get-Process
+- 구조03▶️  ├─ Stop-Process
+- 구조04▶️  ├─ Wait-Process
+- 구조05▶️  └─ Debug-Process
+- PreFix형식▶️A
+- PreFix형식▶️A중심
+- PreFix형식▶️A중심-BA형태
+- PreFix형식▶️A중심-CA형태
+- [명사중심_Ex.Process](https://learn.microsoft.com/en-us/powershell/scripting/samples/managing-processes-with-process-cmdlets?view=powershell-7.5&utm_source=chatgpt.com)

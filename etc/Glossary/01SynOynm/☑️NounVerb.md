@@ -1,0 +1,15 @@
+- ☑️NounVerb
+- NounVerb
+- `Noun`Verb
+- `Noun`-Verb
+- 통상적-NounVerb>>VerbNoun
+- 탑다운-NounVerb>>VerbNoun
+- 탑다운-명사동사>>동사명사
+- 탑다운-명동>>동명
+- PowerShell-실질-NounVerb>>VerbNoun
+- PowerShell-실질묶음-NounVerb>>VerbNoun
+- PowerShell-실질중심-NounVerb>>VerbNoun
+- PowerShell-표현-NounVerb<<VerbNoun
+- PowerShell-표기-NounVerb<<VerbNoun
+- PowerShell-표현-NounVerb<<VerbNoun-Verb한정.
+- PowerShell-명사동사<<동사명사
