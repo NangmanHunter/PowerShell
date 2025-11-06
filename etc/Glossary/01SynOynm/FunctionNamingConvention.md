@@ -11,3 +11,7 @@
 - 공식스타일요약(Microsoft규약)▶️대소문자👉PascalCase (각 단어 첫 글자 대문자)🚥Get-Data, Write-Log
 - 공식스타일요약(Microsoft규약)▶️동사　　👉PowerShell 예약 동사 중 하나 사용 권장🚥Get, Set, Add, Remove, Test, Convert, ...
 - 공식스타일요약(Microsoft규약)▶️명사　　👉대문자 시작, 복수형은 피함🚥Item, UserInfo, Config
+- ❌ log_get() → PowerShell 스타일 아님 (Python/C식)
+- ❌ GetLogPath → 하이픈(-) 누락
+- ❌ RunLogFile → 공식 동사 미사용
+- ✅ Get-LogPath (공식 규칙에 완벽히 부합)

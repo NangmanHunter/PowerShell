@@ -171,8 +171,7 @@ Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
 
 `Unique`
 ```ps1
-# .md파일만
-# -Filter "*.md"
+# -Unique
 $RootPath = "."
 
 Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {

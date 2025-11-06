@@ -1,0 +1,15 @@
+- NewFile
+- File-NewFile
+- New`File`
+- `New`File
+- CreateFile
+- PowerShell 쪽에서는 NewFile / New-File이 더 공식적이고 자연스럽고,
+- 시스템 쪽(C/C++)에서는 CreateFile 이 “진짜 OS 레벨 생성” 의미를 가집니다.
+- 최적화=종래-일관통일>>각다르게
+- 최적화=종래-Create>>New
+- 최적화=종래-CreateFile>>NewFile
+- 최적화=근래-Create<<New
+- 최적화=근래-일관<<각최적화
+- 최적화=근래-일관<<각다르게
+- 최적화=근래-전체최적화<<각최적화
+- 최적화=근래-CreateFile<<NewFile

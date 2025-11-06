@@ -1,0 +1,16 @@
+- 언더스코어 (underscore)
+- 언더스코어
+- 변수명 등에서 띄어쓰기 대신 (user_name)
+- UnderScore
+- `_`
+- under (아래) + score (선, 줄)
+- score 는 원래 “선을 긋다”, “긋는 자국” 이라는 오래된 의미가 있어요.
+- (예: scoreboard = 점수판 → 원래는 "선으로 표시된 점수판")
+- 그래서 underscore = “아래쪽에 선을 긋다”
+- → 즉 밑줄을 긋는다는 뜻입니다.
+- under = 아래
+- score = 선(긋기)
+- underscore = “아래에 선을 긋다” → 밑줄 → _
+- UnderScore>>UnderLine
+- UnderScore>>UnderLine-좀다름.
+- UnderScore>>UnderLine-좀다름.-UnderLine-글자자체위에얹는느낌.

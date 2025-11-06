@@ -1,0 +1,39 @@
+- New
+- 생성하다
+- Create
+- GetVerb-New
+- GetVerb-`New`
+- PowerShell-Create<<New
+- 단순서버-Create>>New
+- DB-Create>>New
+- 최적표현=PowerShell-Create<<New
+- 최적표현=PowerShell-New>>Create
+- PowerShell-New>>Create
+- CRUD-01`C`👉`New`
+- CRUD-01`C`👉New
+- CRUD-01`C`👉Add
+- CRUD-01`C`👉Copy
+- CRUD-01`C`👉Initialize
+- CRUD-01`C`👉Install
+- CRUD-01`C`👉Register
+- CRUD-02`R`👉`Get`
+- CRUD-02`R`👉Get
+- CRUD-02`R`👉Find
+- CRUD-02`R`👉Measure
+- CRUD-02`R`👉Test
+- CRUD-02`R`👉Search
+- CRUD-03`U`👉`Set`
+- CRUD-03`U`👉Set
+- CRUD-03`U`👉Update
+- CRUD-03`U`👉Rename
+- CRUD-03`U`👉Move
+- CRUD-03`U`👉Enable / Disable
+- CRUD-03`U`👉Convert
+- CRUD-03`U`👉Format
+- CRUD-04`D`👉`Remove`
+- CRUD-04`D`👉Remove
+- CRUD-04`D`👉Unregister
+- CRUD-04`D`👉Uninstall
+- CRUD-04`D`👉Clear
+- CRUD-NewGetSetRemove
+- CRUD-NGSR
