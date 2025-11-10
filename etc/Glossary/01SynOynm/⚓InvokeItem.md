@@ -1,0 +1,22 @@
+- ⚓InvokeItem
+- InvokeItem
+- Invoke-Item
+- `Invoke-Item`
+- ii
+- `ii`
+- ii는 Invoke-Item의 alias.
+- Invoke-Item 사용 (추천)
+- PowerShell에서 파일·폴더 열 때 가장 정석임.
+- 비교01👉Invoke-Item   "C:\문서\test.pdf" → PDF 기본 뷰어로 연다
+- 비교02👉Start-Process "C:\문서\test.pdf" → 같은 동작이지만 옵션을 더 줄 수 있음
+- 활용▶️경량성-Invoke-Item>>Start-Process
+- 활용▶️단순성-Invoke-Item>>Start-Process
+- 활용▶️복잡성-Invoke-Item<<Start-Process
+- 활용▶️디테일성-Invoke-Item<<Start-Process
+- Invoke-Item은 👉 “기본 연결 프로그램으로 열기(Open with default program)” 이기 때문에, Windows에서 .html의 기본 앱이 Chrome이면 Chrome이 열릴 수밖에 없음.
+- `Invoke-Item`-❌다른프로그램실행
+- `Invoke-Item`-✅기본프로그램실행
+- `Invoke-Item`-✅기본프로그램실행ㆍ❌다른프로그램실행
+- `Start-Process`-✅기본프로그램실행
+- `Start-Process`-✅기본프로그램실행ㆍ✅다른프로그램실행
+- `Start-Process`-✅다른프로그램실행

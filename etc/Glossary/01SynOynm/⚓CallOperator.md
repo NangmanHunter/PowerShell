@@ -1,0 +1,17 @@
+- &
+- `&`
+- `&`=✅경로
+- `&`=✅Path
+- `&`=✅Path-❌ProgramName
+- `&`=✅Pathㆍ❌ProgramName
+- Call operator
+- Call Operator
+- CallOperator
+- `&`=✅Pathㆍ❌ProgramName▶️Call operator: 문자열/경로/변수에 있는 명령을 실행
+- `&`=✅Pathㆍ❌ProgramName▶️&는 “명령 실행”을 의미하지만, PowerShell은 절대경로나 PATH에 등록된 실행 파일만 바로 찾음.
+- `&`=✅Pathㆍ❌ProgramName▶️Windows에서 msedge.exe는 기본적으로 PATH에 등록되어 있지 않음 → 그래서 못 찾음.
+- `&`=✅Pathㆍ❌ProgramName▶️즉, 단순히 "msedge.exe"라고만 쓰면 “찾을 수 없음” 오류 발생.
+- `Start-Process`=✅Pathㆍ✅ProgramName▶️Start-Process는 내부적으로 Windows Shell을 통해 실행을 시도함
+- `Start-Process`=✅Pathㆍ✅ProgramName▶️Windows는 “App Execution Aliases” 기능이나 PATH에 있는 경로를 자동으로 찾아서 실행
+- `Start-Process`=✅Pathㆍ✅ProgramName▶️Edge, Notepad, Chrome 같은 일부 앱은 시스템에서 자동으로 경로를 인식
+- `Start-Process`=✅Pathㆍ✅ProgramName▶️그래서 Start-Process "msedge.exe"처럼 이름만 줘도 실행 가능

@@ -1,0 +1,15 @@
+- Explorer
+- explorer
+- Windows 운영체제의 파일 탐색기(File Explorer) 프로그램 자체의 이름
+- Explorer = Windows Explorer = File Explorer
+- Windows에서 파일과 폴더를 보여주고 여는 프로그램
+- 프로세스 이름은 explorer.exe
+- Windows GUI 전체(작업 표시줄, 바탕화면)도 담당하는 시스템 셸(shell)
+- 단순히 실행 가능한 윈도우 프로그램(.exe)
+- Path=영어>>한글
+- Explorer프로그램👉✅영어-✅영어
+- Explorer프로그램👉✅한글-❌인코딩
+- Explorer프로그램👉✅한글-인코딩-❌인코딩
+- Explorer프로그램👉✅한글-인코딩-❌인코딩-여기서오류나는형태.
+- Explorer는 file:///C:/가나다/... 같은 "일반 문자열"은 이해하지만,
+- file:///C:/%EA%B0%80%EB%82%98%EB%8B%A4/... 같은 "URL 인코딩 문자열"은 자동 디코딩하지 않는다.
