@@ -42,3 +42,8 @@
 - ✅ 공식 권장 동사(Get, Set, Add, Remove, New 등) 사용 → 경고 제거, 코드 일관성 확보
 - ⚠️ 단, 작은 개인 스크립트라면 기능상 문제는 없지만 팀/배포 환경에서는 바꾸는 게 좋음
 - 최대한혼선지양ㄱㄱ.
+- VsCode👉sortLinesAscending
+- VsCode👉sortLines
+- VsCode👉SortLines
+- VsCode👉SortLines-고유어적활용ㄱㄱ.
+- SortLines

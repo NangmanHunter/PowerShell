@@ -25,3 +25,4 @@
 - ForEachObject▶️02`GetContent`👉`Get-Content`-`ForEach-Object`
 - ForEachObject▶️02`GetContent`👉`GetContent`-`ForEachObject`
 - ForEachObject▶️02`GetContent`👉GetContent-ForEachObject
+- `%`

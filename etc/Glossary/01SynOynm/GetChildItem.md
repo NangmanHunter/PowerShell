@@ -1,0 +1,6 @@
+- GetChildItem
+- Get-ChildItem
+- `Get-ChildItem`
+- `ls`
+- `dir`
+- `gci`

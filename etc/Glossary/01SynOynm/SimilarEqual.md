@@ -1,0 +1,33 @@
+- approximation symbol
+- approximately equal sign
+- tilde (∼)
+- similar to symbol
+- similar sign
+- similar script
+- “similar script”👉이건 수학용어 X,
+- “similar script”👉보통 글자체, 폰트 스타일에서 “script”라는 단어를 쓰기 때문에
+- “similar script”👉수학 기호 이름으로는 적절하지 않아.
+- ∼👉U+223C TILDE OPERATOR
+- ∼👉→ 유니코드 공식 이름이 tilde operator야.
+- ≈👉U+2248 ALMOST EQUAL TO
+- ≈👉→ 우리가 일반적으로 말하는 근사 기호
+- ≈👉→ 영어로 “approximately equal”이라고 말하지만, Unicode 공식 이름은 almost equal to
+- ≃👉U+2243 ASYMPTOTICALLY EQUAL TO
+- ≅👉U+2245 APPROXIMATELY EQUAL TO
+- ≅👉→ 이름이 “approximately equal to”라서 혼동되지만
+- ≅👉일반적인 근사(≈)와는 다르게 기하/위상에서 특정 의미로 쓰임.
+- ∝👉U+221D PROPORTIONAL TO
+- asymptotically 는 수학 용어로, ✅ “점근적으로” 라는 뜻이야.
+- f(x) is asymptotically equal to L → x가 무한대로 갈수록 f(x)가 L에 “점근적으로 가까워진다”
+- Tex▶️sim-`∼`
+- Tex▶️simeq-`≃`
+- Tex용어와 정합화ㄱㄱ.
+- Tex어휘와 정합화
+- 어휘특정=Unicode어휘 vs. Tex어휘
+- 어휘특정=Unicode용어 vs. Tex용어
+- 어휘특정=통상-Unicode용어>>Tex용어
+- 어휘특정=수학-Unicode용어<<Tex용어
+- simeq
+- SimEq
+- SimilarEqual
+- `SimilarEqual`
