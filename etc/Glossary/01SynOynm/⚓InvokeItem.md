@@ -15,8 +15,20 @@
 - 활용▶️디테일성-Invoke-Item<<Start-Process
 - Invoke-Item은 👉 “기본 연결 프로그램으로 열기(Open with default program)” 이기 때문에, Windows에서 .html의 기본 앱이 Chrome이면 Chrome이 열릴 수밖에 없음.
 - `Invoke-Item`-❌다른프로그램실행
+- `Invoke-Item`=❌웹실행
+- `Invoke-Item`=❌웹실행-Https
+- `Invoke-Item`=❌웹실행-`Https`
+- `Invoke-Item`=❌웹실행-❌`Https`
+- `Invoke-Item`=❌웹실행-❌`https`
+- `Invoke-Item`=❌웹실행-❌`https://`
+- `Invoke-Item`=❌웹실행-❌`https://example.com`
+- `Invoke-Item`=❌웹실행-❌🌎`https://example.com`
+- `Invoke-Item`=❌🌎`https://example.com`
 - `Invoke-Item`-✅기본프로그램실행
 - `Invoke-Item`-✅기본프로그램실행ㆍ❌다른프로그램실행
 - `Start-Process`-✅기본프로그램실행
 - `Start-Process`-✅기본프로그램실행ㆍ✅다른프로그램실행
 - `Start-Process`-✅다른프로그램실행
+- ❌URL👉웹 URL을 직접 넣으면 대부분 안 됩니다. 
+- ❌URL👉이유는: Invoke-Item은 내부적으로 ShellExecute를 사용해서 로컬 항목을 여는 것에 최적화돼 있어요.
+- ❌URL👉일부 환경에서는 브라우저를 열 수 있지만, PowerShell Core나 일부 Windows 설정에서는 URL 열기가 지원되지 않을 수 있음

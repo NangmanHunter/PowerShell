@@ -4,8 +4,6 @@
     <summary></summary>
 
 
-</details>
-
 ```ps1
 Invoke-Item 📁Directory	
 ```
@@ -49,11 +47,5 @@ Invoke-Item 💻something.exe
 ```ps1
 Invoke-Item something.exe	
 ```
+</details>
 
-
-```ps1
-Invoke-Item 🌎http://example.com
-```
-```ps1
-Invoke-Item http://example.com
-```

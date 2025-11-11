@@ -1,2 +1,17 @@
 - Module (모듈)
 - 여러 함수/스크립트를 묶어서 배포
+- ✅`폴더명=파일명`▶️psm1 파일 이름은 모듈 폴더 이름과 반드시 같아야 해요.
+- ✅`폴더명=파일명`▶️그래서 ShowLaw/ShowLaw.psm1은 되지만
+- ✅`폴더명=파일명`▶️ShowLaw/ShowLawLink.psm1은 모듈로 인식되지 않아요.
+- ✅`폴더명=파일명`▶️ShowLaw/ShowLaw.psm1	✔ 가능	폴더명과 파일명이 일치
+- ✅`폴더명=파일명`▶️ShowLaw/ShowLawLink.psm1	❌ 불가능	PowerShell이 모듈 이름으로 인식 못함
+- 방식01▶️ShowLaw/
+- 방식01▶️    ShowLaw.psm1  ← 여기에 여러 함수 정의
+- 방식02▶️ShowLaw/
+- 방식02▶️    ShowLaw.psm1
+- 방식02▶️    Private/
+- 방식02▶️        ShowLawLink.ps1
+- 방식02▶️        FormatUtil.ps1
+- 📌 폴더 구조 이름은 100% 네 맘대로 해도 됨.
+- 📌 PowerShell은 “폴더 이름”에 아무 요구조건이 없음.
+- 📌 표준 구조(Public/Private)는 단지 협업과 자동화에 편하다는 이유로 사용될 뿐.

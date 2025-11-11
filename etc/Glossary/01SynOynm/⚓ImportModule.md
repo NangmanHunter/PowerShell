@@ -10,3 +10,11 @@
 - 01단속세션=`Import-Module`
 - 02영속세션=`Import-Module`+`$PROFILE`
 - 02영구세션=`Import-Module`+`$PROFILE`
+- Import-Module
+- 모듈 전체 로드
+- .psm1, 모듈 폴더
+- 별도 모듈 스코프 후 Export
+- Export된 멤버만 노출
+- 외부에서 모듈 사용
+- Import-Module = “PowerShell 모듈(.psm1)을 로드해라”
+- Import-Module = npm 패키지를 설치하고 로드하는 것

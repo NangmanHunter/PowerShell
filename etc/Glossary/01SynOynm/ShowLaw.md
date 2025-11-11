@@ -1,0 +1,36 @@
+- 열어서보여준다
+- 열다
+- 열어보여준다
+- 연다
+- 웹페이지(법령 링크)를 연다
+- Show
+- `Show`
+- Show👉사용자에게 뭔가를 보여줄 때 사용하는 공식 동사.
+- Open👉❌Open
+- Open👉실제로는 공식 verb 목록(Get-Verb)에 없음.
+- Open👉그러므로 PowerShell 규칙을 엄격히 따르고 싶다면 비추.
+- Get👉Get=✅가져옴
+- Get👉Get=✅가져옴-❌열다
+- Get👉Get=✅가져옴-❌연다
+- Get👉리소스를 가져오지만 “브라우저로 열다”라는 의미에는 맞지 않음.
+- Invoke👉“행위를 실행한다”에 가깝고 URL 열기에도 쓸 수 있지만 너무 기술적 느낌.
+- Show-LawLink👉가장 깔끔하고 PowerShell Naming Rule을 준수함.
+- Show-LawLink👉의미도 명확: “법령 링크를 보여줘(열어줘)”.
+- Show-Law
+- `Show-Law`
+- Show-LegalProvision👉“법령(조문) 보여주기” 느낌.
+- Show-StatuteLink👉statute(법령)이라는 영어 용어 사용.
+- Show-LawReference👉“법령 레퍼런스 표시”라는 넓은 개념.
+- 일반성=Law>>Statue
+- 경제성=Law>>LawLink
+- 경제성=Show-Law>>Show-LawLink
+- 접근성=Law>>Statue
+- 일단성=Law>>Statue
+- 우선성=Law>>Statue
+- 정확성=Law<<Statue
+- 적확성=Law<<Statue
+- 번역=Law<<Statue
+- URL=Law>>Statue
+- URL=Law>>Statue-일반성
+- URL=Law>>Statue-일반성-접근성
+- URL=Law>>Statue-일반성-접근성-최적성

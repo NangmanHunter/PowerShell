@@ -1,0 +1,17 @@
+- DotSourcing
+- dot-sourcing (.)
+- dot-sourcing
+- .
+- `.`
+- dot-sourcing (`.`)
+- ps1 파일 코드 그대로 현재 스코프에서 실행
+- .ps1 파일
+- 현재 스코프
+- 파일 내용 전체 노출
+- 모듈 내부에서 여러 파일 합치는 용도
+- dot-sourcing (.) = “이 파일 내용을 지금 스코프에 그대로 불러와라”
+- dot-sourcing = JS에서 require('./util.js') 하는 것
+- PowerShell 팀이 공식 문서에서 말하는 이유는 다음과 같아: 자동 Export는 “psm1 내부에 직접 정의된 함수들”을 기준으로 설계되었기 때문이다.
+- dot-sourcing을 통해 로드된 함수는 자동 Export 규칙에서 벗어나는 경우가 있다.
+- 즉, 🚫 dot-sourcing은 PowerShell 모듈 자동 export 기능과 100% 호환되지 않음.
+- DotSourcing-❌자동Export
