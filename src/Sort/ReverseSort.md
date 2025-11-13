@@ -37,3 +37,8 @@ $lines = Get-Content test.md
 Write-Host $lines 
 ```
 </details>
+
+
+- PipeLineForEach
+- DotForEach
+- ForEach
