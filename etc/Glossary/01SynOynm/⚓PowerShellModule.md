@@ -1,10 +1,14 @@
 - PowerShellModule
+- PowerShellModule=PowerShellScriptModule
+- `PowerShellModule`
 - PSM
 - PSM1
 - psm1
 - .psm1
 - `.psm1`
 - Module
+- Module-Script
+- Module_Script
 - MyModule
 - MyUtil
 - MyUtils

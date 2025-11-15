@@ -1,4 +1,7 @@
 - PowerShellData
+- PowerShellData=모듈에대한데이터
+- PowerShellModulData
+- PowerShellScriptModulData
 - PowerShell Data File (Module Manifest)
 - 모듈의 버전, 작성자, 의존성 등 메타데이터 정의
 - PSD
@@ -12,3 +15,6 @@
 - 폴더구조일치▶️1폴더-2파일
 - 폴더구조일치▶️1폴더-2파일-`.psm1`ㆍ`.psd1`
 - 폴더구조일치▶️1폴더-2파일-`.psm1`ㆍ`.psd1`-둘다있어야함ㄱㄱ.
+- `.psd1`-`.psm1`-`.ps1`
+- 추구-`.psd1`-`.psm1`-`.ps1`
+- 대소-`.psd1`-`.psm1`-`.ps1`
