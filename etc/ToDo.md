@@ -32,3 +32,12 @@
   - Pdf구조부터정리-가장기본단위-단위특정.
 - 단위별자르기
   - 그다음 단위별접근형태로갈것.-단위별자르기형태ㄱㄱ.
+
+
+## 좀찾아볼것
+- ConvertFrom-Csv
+- ConvertFrom-Json
+- ConvertFrom-SecureString
+- ConvertFrom-String
+- ConvertFrom-StringData
+- Convert-Path
