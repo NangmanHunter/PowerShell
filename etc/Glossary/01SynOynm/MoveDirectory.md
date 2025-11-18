@@ -1,0 +1,9 @@
+- MoveDirectory
+- `MoveDirectory`
+- mv-`MoveDirectory`
+- `mv`-`MoveDirectory`
+- mv
+- `mv`
+- RenameDirectory
+- UpdateDirectory
+- `UpdateDirectory`

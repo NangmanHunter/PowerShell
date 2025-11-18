@@ -1,0 +1,29 @@
+- Equivalents (동등물 / 동등 기능 모음)
+- Functional equivalents
+- Command equivalents
+- API equivalents
+- Equivalent patterns
+- Alternatives / Alternative Implementations (대안 구현)
+- Variants / Command Variants (변형들)
+- Approaches / Methods (방법들)
+- Functional Equivalents (기능적 동등물들)
+- Equivalent Commands (동등 명령어 모음)
+- Equivalent Commands
+- Equivalent Command
+- EquivalentCommand
+- `EquivalentCommand`
+- EquivalentCommands
+- `EquivalentCommands`
+- Equivalent Code
+- Equivalent Codes
+- CLI 중심이면 → Equivalent Commands
+- 코드전반👉프로그래밍 코드 전반에서 “같은 기능을 한다”를 나타낼 때는
+- 코드전반👉Functionally Equivalent Code
+- 코드전반👉Semantically Equivalent Code
+- 코드전반👉Code equivalents
+- CLI 명령어 묶음을 분류하고 싶다 → Equivalent Commands가 더 좋음.
+- 동등 명령어
+- 동등명령어
+- 📌표현▶️`EquivalentCommand`<<`EquivalentCommands`
+- 📌표현▶️관용적-`EquivalentCommand`<<`EquivalentCommands`
+- "ls" and dir are equivalent commands in different operating systems. (ls와 dir은 서로 다른 운영체제에서 동등한 명령어입니다.)

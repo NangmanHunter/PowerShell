@@ -1,5 +1,36 @@
 - CreateDirectory
+- CreateFolder
+- FolderCreate
+- Folder생성
+- 폴더생성
+- Create Directory
 - DirectoryCreate
+- DirectoryCreate▶️SingleDirectoryCreateㆍMultiDirectoryCreate
+- Directory Create
+- Create Directory
+- Create
+- DirectoryMake
+- `DirectoryMake`
+- MakeDirectory
+- `MakeDirectory`
+- md-`MakeDirectory`
+- `md`-`MakeDirectory`
+- md
+- MD
+- Md
+- 📌표현▶️통상-Create>>Make
+- 📌표현▶️PowerShell-md-Create<<Make
+- Directory생성
+- 디렉토리생성
+- CreateDirectory
+- `CreateDirectory`
+- DirectoryCreate
+- Directory-DirectoryCreate
+- Directory_DirectoryCreate
+- `DirectoryCreate`
+- 개발성-`CreateDirectory`<<`DirectoryCreate`
+- 단어성-`CreateDirectory`>>`DirectoryCreate`
+- Directory.Create
 - Directory_Create
 - 📌표현▶️CreateDirectory vs. DirectoryCreate
 - 📌표현▶️CreateDirectory>>DirectoryCreate

@@ -1,0 +1,5 @@
+- ⚓RunSelection
+- RunSelection
+- RunSelection(F8)
+- PowerShellExension-RunSelection
+- SelectionRun

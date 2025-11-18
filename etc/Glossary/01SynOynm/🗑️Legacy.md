@@ -1,0 +1,25 @@
+- 컴퓨터 용어: Recycle Bin (윈도우) 또는 Trash (맥)
+- 일반 쓰레기통: Trash Can, Garbage Can, Dustbin 
+- 🗑️ Trash
+- 🗑️Trash
+- 🗑️Bin
+- 🗑️Legacy
+- 🗑️
+- 🚮 Remove
+- 🗑️ CleanUp
+- 🧹 Cleanup
+- 🗑️🧹 Delete & Clean
+- 🧹 Broom
+- 🧼 Soap
+- 🧽 Sponge
+- 🧺 Basket
+- 🗑️ Wastebasket
+- 🗑️ Rubbish
+- 🗑️ Bin
+- 🗑️ Junk 
+- 🗑️ Discard
+- 🗑️ Purge
+- 🗑️ Wastebasket (가장 일반적)
+- 🚮 Litter in Bin Sign (버리는 표지판)
+- 쓰레기통
+- 쓰레기

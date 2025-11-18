@@ -1,0 +1,1 @@
+mv 📁Directory 📌.../📁Directory

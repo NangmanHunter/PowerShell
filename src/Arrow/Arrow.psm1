@@ -1,4 +1,4 @@
 function Get-Arrow{
-    Write-Host →`n←`n↑`n↓`n↔`n↕`n↗`n↙`n↖`n↘
+    Write-Host →`n←`n↔`n↑`n↓`n↕`n↘`n↖`n⤡`n↗`n↙`n⤢
 }
 

@@ -1,0 +1,8 @@
+- PascalCase
+- 종래-전첨-PascalCase>>SnakeCase
+- 종래-후첨-PascalCase<<SnakeCase
+- 종래-PascalCase<<SnakeCase
+- 근래-PascalCase>>SnakeCase
+- 근래-PascalCase>>SnakeCase.-더축약느낌.
+- 근래-PascalCase>>SnakeCase.-더Java느낌.
+- 근래-PascalCase>>DotCase.-간혹설정파일에 걸릴까봐.-PowerShell은안보이나.-Python은 설정파일에서 하위폴더로 잡는경우있음.-이럴때 파일명에 . 자체가 걸림.

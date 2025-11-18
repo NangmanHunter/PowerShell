@@ -1,0 +1,12 @@
+- RemoveDirectory
+- `RemoveDirectory`
+- Remove
+- `Remove`
+- rm
+- `rm`
+- DeleteDirectory
+- Delete
+- DirectoryDelete
+- Directory_Delete
+- Directory_Remove
+- DirectoryRemove
