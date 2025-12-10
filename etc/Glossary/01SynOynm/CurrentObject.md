@@ -1,0 +1,17 @@
+- FileInfo 객체
+- $_
+- 달러언더바
+- `$_`
+- “현재 파이프라인 개체” (Current Pipeline Object)
+- current object
+- Current Object
+- CurrentObject
+- $_ represents the current object in the pipeline.
+- 자동 변수 “$_” (Automatic Variable)
+- $_ (Current Pipeline Object 자동 변수)
+- 파이프라인 현재 객체
+- 전체 경로(가장 많이 씀)▪️$_.FullName▪️C:\a\b\📦파일.md 전체
+- 디렉터리 경로▪️$_.DirectoryName▪️부모 폴더 경로
+- 파일명만▪️$_.Name▪️📦파일.md
+- 확장자 적용 안 된 순수 이름▪️[IO.Path]::GetFileNameWithoutExtension($_.Name)▪️📦파일
+- 확장자만▪️$_.Extension▪️.md

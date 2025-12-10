@@ -4,3 +4,8 @@
 - `Set-Content`
 - `SetContent`
 - `-Value`▶️`Set-Content -Path "C:\Temp\test.txt" -Value "Hello World"`
+- SetContent
+- `Set-Content`
+- Set-Content
+- set-content
+- sc
